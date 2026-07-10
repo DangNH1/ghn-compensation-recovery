@@ -21,40 +21,40 @@
                ],
     "monthly_summary":  [
                             {
-                                "net_loss":  -5214127466,
+                                "net_loss":  -84352083,
                                 "recovery_rate":  57.59,
                                 "compensation_count":  5956,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  3552232157.1130219,
+                                                              "recovery_remaining":  3242809214.1773262,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  2079146994.3274887,
-                                                                                      "assigned":  4999094754.9977369,
+                                                                                      "remaining":  1770197064.5153327,
+                                                                                      "assigned":  4256256476.6582904,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2920649392.0774884,
+                                                                                      "recovered":  2486656784.9409637,
                                                                                       "rate":  58.42,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  4689
+                                                                                      "compensation":  1427795719.2
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  7160950.9883720921,
-                                                                                      "assigned":  53031591.872093022,
+                                                                                      "remaining":  6973788.5675672051,
+                                                                                      "assigned":  51645530.002652116,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  45870640.883720927,
+                                                                                      "recovered":  44671741.435084909,
                                                                                       "rate":  86.5,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  39
+                                                                                      "compensation":  48587750
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1465924211.7971611,
-                                                                                      "assigned":  3265833094.0792127,
+                                                                                      "remaining":  1465638361.0944264,
+                                                                                      "assigned":  3265196266.6924725,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1800168384.6483517,
+                                                                                      "recovered":  1799817357.3621852,
                                                                                       "rate":  55.12,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  4346
+                                                                                      "compensation":  1497071687.8
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -84,11 +84,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  4766688417.609561,
-                                                              "recovery_rate":  57.31,
-                                                              "net_loss":  -4766679343.609561,
-                                                              "recovery_assigned":  8317959440.9490433,
-                                                              "compensation":  9074
+                                                              "recovery_actual":  4331145883.7382336,
+                                                              "recovery_rate":  57.19,
+                                                              "net_loss":  -1357690726.7382336,
+                                                              "recovery_assigned":  7573098273.3534145,
+                                                              "compensation":  2973455157
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
@@ -287,34 +287,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  288747379.88697809,
+                                                              "recovery_remaining":  598170322.8226738,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  272696822.67251134,
-                                                                                      "assigned":  655671417.00226247,
+                                                                                      "remaining":  581646752.4846673,
+                                                                                      "assigned":  1398509695.3417099,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  383066618.92251134,
+                                                                                      "recovered":  817059226.05903614,
                                                                                       "rate":  58.42,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  615
+                                                                                      "compensation":  469141408
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  8629864.0116279069,
-                                                                                      "assigned":  63909867.127906971,
+                                                                                      "remaining":  8817026.4324327949,
+                                                                                      "assigned":  65295928.997347884,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  55280003.116279066,
+                                                                                      "recovered":  56478902.564915091,
                                                                                       "rate":  86.5,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  47
+                                                                                      "compensation":  61429949
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  7420693.2028388279,
-                                                                                      "assigned":  16532058.920787547,
+                                                                                      "remaining":  7706543.9055737723,
+                                                                                      "assigned":  17168886.307527479,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  9112679.351648353,
+                                                                                      "recovered":  9463706.6378148776,
                                                                                       "rate":  55.12,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  22
+                                                                                      "compensation":  7871825
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -332,7 +332,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  10495
+                                                                                      "compensation":  1617897297
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -344,33 +344,33 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  447459301.39043874,
-                                                              "recovery_rate":  60.79,
-                                                              "net_loss":  -447448122.39043874,
-                                                              "recovery_assigned":  736113343.050957,
-                                                              "compensation":  11179
+                                                              "recovery_actual":  883001835.26176608,
+                                                              "recovery_rate":  59.62,
+                                                              "net_loss":  1273338643.738234,
+                                                              "recovery_assigned":  1480974510.6465852,
+                                                              "compensation":  2156340479
                                                           }
                                                       ],
                                 "month":  "2025-01",
                                 "reasons":  [
                                                 {
-                                                    "amount":  10495,
+                                                    "amount":  1617897297,
                                                     "reason":  "Đền bù xu"
                                                 },
                                                 {
-                                                    "amount":  86,
+                                                    "amount":  110017699,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  5304,
+                                                    "amount":  1896937127.1999998,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  4368,
+                                                    "amount":  1504943512.8,
                                                     "reason":  "Quá hạn"
                                                 }
                                             ],
-                                "compensation":  20253,
+                                "compensation":  5129795636,
                                 "recovery_remaining":  3840979537,
                                 "recovery_assigned":  9054072784,
                                 "recovery_count":  24177,
@@ -383,7 +383,7 @@
                                                         "rate":  58.42,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3303716011,
-                                                        "compensation":  5304
+                                                        "compensation":  1896937127.2
                                                     },
                                                     {
                                                         "remaining":  15790815,
@@ -393,7 +393,7 @@
                                                         "rate":  86.5,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  101150644,
-                                                        "compensation":  86
+                                                        "compensation":  110017699
                                                     },
                                                     {
                                                         "remaining":  1473344905,
@@ -403,7 +403,7 @@
                                                         "rate":  55.12,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1809281064,
-                                                        "compensation":  4368
+                                                        "compensation":  1504943512.8
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -423,7 +423,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  10495
+                                                        "compensation":  1617897297
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -439,40 +439,40 @@
                                 "recovery_actual":  5214147719
                             },
                             {
-                                "net_loss":  -7268829302,
+                                "net_loss":  5282519599.6,
                                 "recovery_rate":  52.15,
                                 "compensation_count":  6769,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  6104121880.9857578,
+                                                              "recovery_remaining":  5469278897.488656,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  4430270735.2506866,
-                                                                                      "assigned":  8939718340.9140968,
+                                                                                      "remaining":  3800349146.2732449,
+                                                                                      "assigned":  7668617336.2932711,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  4509916051.1593895,
+                                                                                      "recovered":  3868670029.2183752,
                                                                                       "rate":  50.45,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  8771
+                                                                                      "compensation":  2790769673.6
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  46080454.956521735,
-                                                                                      "assigned":  235487260.52173913,
+                                                                                      "remaining":  46012713.235797234,
+                                                                                      "assigned":  235141076.60815811,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  189431209.73913044,
+                                                                                      "recovered":  189152731.67031014,
                                                                                       "rate":  80.44,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  64
+                                                                                      "compensation":  56546783
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1627770690.7785497,
-                                                                                      "assigned":  3557206027.7788277,
+                                                                                      "remaining":  1622917037.9796138,
+                                                                                      "assigned":  3546599224.8114743,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1929751637.6591647,
+                                                                                      "recovered":  1923997544.3520195,
                                                                                       "rate":  54.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  21428
+                                                                                      "compensation":  6473838792
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -481,7 +481,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  1774
+                                                                                      "compensation":  8402027
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -502,24 +502,24 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  6629098898.5576839,
-                                                              "recovery_rate":  52.06,
-                                                              "net_loss":  -6629066861.5576839,
-                                                              "recovery_assigned":  12732411629.214664,
-                                                              "compensation":  32037
+                                                              "recovery_actual":  5981820305.2407045,
+                                                              "recovery_rate":  52.24,
+                                                              "net_loss":  3347736970.3592958,
+                                                              "recovery_assigned":  11450357637.712904,
+                                                              "compensation":  9329557275.6
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
-                                                              "recovery_remaining":  9335693.04003818,
+                                                              "recovery_remaining":  11579928.355349207,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  3030626.429312977,
-                                                                                      "assigned":  6115415.5792366415,
+                                                                                      "remaining":  1641539.0794001163,
+                                                                                      "assigned":  3312415.4013152164,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  3085109.6006106869,
+                                                                                      "recovered":  1671049.8940586939,
                                                                                       "rate":  50.45,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  6
+                                                                                      "compensation":  1205457
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -531,13 +531,13 @@
                                                                                       "compensation":  0
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  6305066.6107252017,
-                                                                                      "assigned":  13778612.110586274,
+                                                                                      "remaining":  9938389.27594909,
+                                                                                      "assigned":  21718598.595671702,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  7474770.6704177083,
+                                                                                      "recovered":  11782140.500259317,
                                                                                       "rate":  54.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  83
+                                                                                      "compensation":  39644374
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -567,11 +567,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  10559880.271028396,
-                                                              "recovery_rate":  53.08,
-                                                              "net_loss":  -10559791.271028396,
-                                                              "recovery_assigned":  19894027.689822916,
-                                                              "compensation":  89
+                                                              "recovery_actual":  13453190.394318011,
+                                                              "recovery_rate":  53.75,
+                                                              "net_loss":  27396640.605681989,
+                                                              "recovery_assigned":  25031013.996986918,
+                                                              "compensation":  40849831
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
@@ -705,34 +705,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  555814681.97420347,
+                                                              "recovery_remaining":  1188413430.1559949,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  529349416.32000005,
-                                                                                      "assigned":  1068159254.5066668,
+                                                                                      "remaining":  1160660092.6473548,
+                                                                                      "assigned":  2342063259.3054132,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  538865810.24,
+                                                                                      "recovered":  1181525891.8875659,
                                                                                       "rate":  50.45,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  1048
+                                                                                      "compensation":  852325632
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  20160199.043478262,
-                                                                                      "assigned":  103025676.47826087,
+                                                                                      "remaining":  20227940.764202759,
+                                                                                      "assigned":  103371860.39184186,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  82876154.260869578,
+                                                                                      "recovered":  83154632.329689845,
                                                                                       "rate":  80.44,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  28
+                                                                                      "compensation":  24858890
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  6305066.6107252017,
-                                                                                      "assigned":  13778612.110586274,
+                                                                                      "remaining":  7525396.7444371488,
+                                                                                      "assigned":  16445428.592853829,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  7474770.6704177083,
+                                                                                      "recovered":  8921494.147720959,
                                                                                       "rate":  54.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  83
+                                                                                      "compensation":  30018913
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -750,7 +750,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  12927
+                                                                                      "compensation":  2273784572
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -762,37 +762,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  629216735.1712873,
-                                                              "recovery_rate":  53.1,
-                                                              "net_loss":  -629202649.1712873,
-                                                              "recovery_assigned":  1184963543.0955138,
-                                                              "compensation":  14086
+                                                              "recovery_actual":  1273602018.3649766,
+                                                              "recovery_rate":  51.73,
+                                                              "net_loss":  1907385988.6350234,
+                                                              "recovery_assigned":  2461880548.2901092,
+                                                              "compensation":  3180988007
                                                           }
                                                       ],
                                 "month":  "2025-02",
                                 "reasons":  [
                                                 {
-                                                    "amount":  9825,
+                                                    "amount":  3644300762.6000004,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  1774,
+                                                    "amount":  8402027,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  21594,
+                                                    "amount":  6543502079,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  92,
+                                                    "amount":  81405673,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  12927,
+                                                    "amount":  2273784572,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  46212,
+                                "compensation":  12551395113.6,
                                 "recovery_remaining":  6669272256,
                                 "recovery_assigned":  13937269200,
                                 "recovery_count":  26626,
@@ -805,7 +805,7 @@
                                                         "rate":  50.45,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  5051866971,
-                                                        "compensation":  9825
+                                                        "compensation":  3644300762.6
                                                     },
                                                     {
                                                         "remaining":  66240654,
@@ -815,7 +815,7 @@
                                                         "rate":  80.44,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  272307364,
-                                                        "compensation":  92
+                                                        "compensation":  81405673
                                                     },
                                                     {
                                                         "remaining":  1640380824,
@@ -825,7 +825,7 @@
                                                         "rate":  54.25,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1944701179,
-                                                        "compensation":  21594
+                                                        "compensation":  6543502079
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -835,7 +835,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  1774
+                                                        "compensation":  8402027
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -845,7 +845,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  12927
+                                                        "compensation":  2273784572
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -861,40 +861,40 @@
                                 "recovery_actual":  7268875514
                             },
                             {
-                                "net_loss":  -7471458003,
+                                "net_loss":  2493272061,
                                 "recovery_rate":  53.45,
                                 "compensation_count":  7296,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  4898764236.394208,
+                                                              "recovery_remaining":  4575519161.3413115,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  3966177498.6502552,
-                                                                                      "assigned":  8215959116.5886612,
+                                                                                      "remaining":  3486797073.2562718,
+                                                                                      "assigned":  7222919854.5611305,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  4249810336.3716035,
+                                                                                      "recovered":  3736148028.6239343,
                                                                                       "rate":  51.73,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  7717
+                                                                                      "compensation":  2677225351
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  31601150.14736842,
-                                                                                      "assigned":  150861861.09473684,
+                                                                                      "remaining":  39703332.690399989,
+                                                                                      "assigned":  189541160.16046458,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  119348171.62105262,
+                                                                                      "recovered":  149947712.0852896,
                                                                                       "rate":  79.11,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  108
+                                                                                      "compensation":  108150937
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  900985587.59658444,
-                                                                                      "assigned":  2086159726.143074,
+                                                                                      "remaining":  1049018755.3946393,
+                                                                                      "assigned":  2428918630.4419475,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1185934598.9146111,
+                                                                                      "recovered":  1380785280.0969291,
                                                                                       "rate":  56.85,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  5013
+                                                                                      "compensation":  2079660707
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -903,7 +903,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  1009
+                                                                                      "compensation":  4857937
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -924,42 +924,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  5555093106.9072666,
-                                                              "recovery_rate":  53.14,
-                                                              "net_loss":  -5555079259.9072666,
-                                                              "recovery_assigned":  10452980703.826473,
-                                                              "compensation":  13847
+                                                              "recovery_actual":  5266881020.8061523,
+                                                              "recovery_rate":  53.52,
+                                                              "net_loss":  -396986088.80615234,
+                                                              "recovery_assigned":  9841379645.1635418,
+                                                              "compensation":  4869894932
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
-                                                              "recovery_remaining":  38505499.56129723,
+                                                              "recovery_remaining":  49333730.356937528,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  8737205.8412665986,
-                                                                                      "assigned":  18099171.307763025,
+                                                                                      "remaining":  9844190.3895123,
+                                                                                      "assigned":  20392296.059284404,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  9362028.7311542388,
+                                                                                      "recovered":  10548176.94992136,
                                                                                       "rate":  51.73,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  17
+                                                                                      "compensation":  7558546
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  292603.24210526317,
-                                                                                      "assigned":  1396869.0842105262,
+                                                                                      "remaining":  133261.07166889543,
+                                                                                      "assigned":  636179.79692814546,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  1105075.6631578947,
+                                                                                      "recovered":  503287.54421203141,
                                                                                       "rate":  79.11,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  1
+                                                                                      "compensation":  363000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  29475690.477925368,
-                                                                                      "assigned":  68248592.676533848,
+                                                                                      "remaining":  39356278.895756334,
+                                                                                      "assigned":  91126301.167808726,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  38797780.614800759,
+                                                                                      "recovered":  51803240.217765376,
                                                                                       "rate":  56.85,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  164
+                                                                                      "compensation":  78023111
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -989,42 +989,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  49264885.009112895,
-                                                              "recovery_rate":  56.15,
-                                                              "net_loss":  -49264703.009112895,
-                                                              "recovery_assigned":  87744633.0685074,
-                                                              "compensation":  182
+                                                              "recovery_actual":  62854704.711898766,
+                                                              "recovery_rate":  56.04,
+                                                              "net_loss":  23089952.288101234,
+                                                              "recovery_assigned":  112154777.02402127,
+                                                              "compensation":  85944657
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
-                                                              "recovery_remaining":  856106583.29067028,
+                                                              "recovery_remaining":  627672627.97268844,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  373644038.03534222,
-                                                                                      "assigned":  774005737.690807,
+                                                                                      "remaining":  305577593.77249092,
+                                                                                      "assigned":  633005713.4948498,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  400364405.14994895,
+                                                                                      "recovered":  327430332.35901374,
                                                                                       "rate":  51.73,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  727
+                                                                                      "compensation":  234627959
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  12289336.168421052,
-                                                                                      "assigned":  58668501.5368421,
+                                                                                      "remaining":  10692082.407366596,
+                                                                                      "assigned":  51043314.671505511,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  46413177.852631576,
+                                                                                      "recovered":  40380824.1215895,
                                                                                       "rate":  79.11,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  42
+                                                                                      "compensation":  29124979
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  470173209.086907,
-                                                                                      "assigned":  1088648283.1817837,
+                                                                                      "remaining":  311402951.79283094,
+                                                                                      "assigned":  721028510.97231007,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  618871915.17267549,
+                                                                                      "recovered":  409888393.13222432,
                                                                                       "rate":  56.85,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  2616
+                                                                                      "compensation":  617350719
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1054,42 +1054,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  1065649498.175256,
-                                                              "recovery_rate":  55.46,
-                                                              "net_loss":  -1065646113.175256,
-                                                              "recovery_assigned":  1921322522.4094329,
-                                                              "compensation":  3385
+                                                              "recovery_actual":  777699549.61282754,
+                                                              "recovery_rate":  55.35,
+                                                              "net_loss":  103404107.38717246,
+                                                              "recovery_assigned":  1405077539.1386654,
+                                                              "compensation":  881103657
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
-                                                              "recovery_remaining":  8433935.5610609036,
+                                                              "recovery_remaining":  13708984.133721061,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  3083719.7086823289,
-                                                                                      "assigned":  6387942.8145045964,
+                                                                                      "remaining":  7723184.9895215221,
+                                                                                      "assigned":  15998621.37923835,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  3304245.4345250255,
+                                                                                      "recovered":  8275492.3120179018,
                                                                                       "rate":  51.73,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  6
+                                                                                      "compensation":  5930000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1755619.452631579,
-                                                                                      "assigned":  8381214.5052631581,
+                                                                                      "remaining":  330766.46163546771,
+                                                                                      "assigned":  1579057.8430640744,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  6630453.9789473685,
+                                                                                      "recovered":  1249206.8246144361,
                                                                                       "rate":  79.11,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  6
+                                                                                      "compensation":  901000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  3594596.3997469954,
-                                                                                      "assigned":  8322999.1068943711,
+                                                                                      "remaining":  5655032.68256407,
+                                                                                      "assigned":  13093773.745990515,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  4731436.6603415562,
+                                                                                      "recovered":  7443514.0900927121,
                                                                                       "rate":  56.85,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  20
+                                                                                      "compensation":  11211000
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1119,42 +1119,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  14666136.073813949,
-                                                              "recovery_rate":  63.51,
-                                                              "net_loss":  -14666104.073813949,
-                                                              "recovery_assigned":  23092156.426662125,
-                                                              "compensation":  32
+                                                              "recovery_actual":  16968213.226725049,
+                                                              "recovery_rate":  55.32,
+                                                              "net_loss":  1073786.7732749507,
+                                                              "recovery_assigned":  30671452.96829294,
+                                                              "compensation":  18042000
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  706151246.19276345,
+                                                              "recovery_remaining":  1241726997.1953421,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  679960195.76445353,
-                                                                                      "assigned":  1408541390.5982637,
+                                                                                      "remaining":  1221660615.5922036,
+                                                                                      "assigned":  2530676873.5054975,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  728586118.31276822,
+                                                                                      "recovered":  1309025103.7551126,
                                                                                       "rate":  51.73,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  1323
+                                                                                      "compensation":  938012939
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  9655906.9894736856,
-                                                                                      "assigned":  46096679.778947368,
+                                                                                      "remaining":  4735173.3689290574,
+                                                                                      "assigned":  22605413.528037697,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  36467496.884210527,
+                                                                                      "recovered":  17883345.424294457,
                                                                                       "rate":  79.11,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  33
+                                                                                      "compensation":  12898500
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  16535143.43883618,
-                                                                                      "assigned":  38285795.8917141,
+                                                                                      "remaining":  15331208.234209364,
+                                                                                      "assigned":  35498180.671943411,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  21764608.63757116,
+                                                                                      "recovered":  20179912.462988649,
                                                                                       "rate":  56.85,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  92
+                                                                                      "compensation":  30393843
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1172,7 +1172,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  14953
+                                                                                      "compensation":  3128473383
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1184,37 +1184,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  786818223.83455,
-                                                              "recovery_rate":  52.7,
-                                                              "net_loss":  -786801822.83455,
-                                                              "recovery_assigned":  1492923866.2689252,
-                                                              "compensation":  16401
+                                                              "recovery_actual":  1347088361.6423957,
+                                                              "recovery_rate":  52.04,
+                                                              "net_loss":  2762690303.357604,
+                                                              "recovery_assigned":  2588780467.7054782,
+                                                              "compensation":  4109778665
                                                           }
                                                       ],
                                 "month":  "2025-03",
                                 "reasons":  [
                                                 {
-                                                    "amount":  9790,
+                                                    "amount":  3863354795,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  1009,
+                                                    "amount":  4857937,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  7905,
+                                                    "amount":  2816639380,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  190,
+                                                    "amount":  151438416,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  14953,
+                                                    "amount":  3128473383,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  33847,
+                                "compensation":  9964763911,
                                 "recovery_remaining":  6507961501,
                                 "recovery_assigned":  13978063882,
                                 "recovery_count":  26570,
@@ -1227,7 +1227,7 @@
                                                         "rate":  51.73,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  5391427134,
-                                                        "compensation":  9790
+                                                        "compensation":  3863354795
                                                     },
                                                     {
                                                         "remaining":  55594616,
@@ -1237,7 +1237,7 @@
                                                         "rate":  79.11,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  209964376,
-                                                        "compensation":  190
+                                                        "compensation":  151438416
                                                     },
                                                     {
                                                         "remaining":  1420764227,
@@ -1247,7 +1247,7 @@
                                                         "rate":  56.85,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1870100340,
-                                                        "compensation":  7905
+                                                        "compensation":  2816639380
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -1257,7 +1257,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  1009
+                                                        "compensation":  4857937
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -1267,7 +1267,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  14953
+                                                        "compensation":  3128473383
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -1283,40 +1283,40 @@
                                 "recovery_actual":  7471491850
                             },
                             {
-                                "net_loss":  -4822400108,
+                                "net_loss":  2859345096.7716808,
                                 "recovery_rate":  58.48,
                                 "compensation_count":  5112,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  2682127328.6956739,
+                                                              "recovery_remaining":  2379321360.1379938,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1778315535.6484375,
-                                                                                      "assigned":  4430774776.3984375,
+                                                                                      "remaining":  1611548834.3698556,
+                                                                                      "assigned":  4015266010.5151758,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2653270800.0104165,
+                                                                                      "recovered":  2404452629.0803752,
                                                                                       "rate":  59.88,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  4147
+                                                                                      "compensation":  1516130139.1
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  30748526.529729731,
-                                                                                      "assigned":  183868754.74594596,
+                                                                                      "remaining":  17218244.368253604,
+                                                                                      "assigned":  102960938.56208642,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  153120228.21621624,
+                                                                                      "recovered":  85742694.193832815,
                                                                                       "rate":  83.28,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  122
+                                                                                      "compensation":  93465632
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  873063266.51750648,
-                                                                                      "assigned":  1858078049.4329634,
+                                                                                      "remaining":  750554281.39988422,
+                                                                                      "assigned":  1597350946.5583413,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  985142535.70111024,
+                                                                                      "recovered":  846906491.56383932,
                                                                                       "rate":  53.02,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  826
+                                                                                      "compensation":  336187014
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1325,7 +1325,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  292242
+                                                                                      "compensation":  3086406841.67168
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1346,42 +1346,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  3791533563.927743,
-                                                              "recovery_rate":  58.58,
-                                                              "net_loss":  -3791236226.927743,
-                                                              "recovery_assigned":  6472721580.5773468,
-                                                              "compensation":  297337
+                                                              "recovery_actual":  3337101814.8380475,
+                                                              "recovery_rate":  58.39,
+                                                              "net_loss":  1695087811.9336324,
+                                                              "recovery_assigned":  5715577895.6356039,
+                                                              "compensation":  5032189626.77168
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
-                                                              "recovery_remaining":  334606928.84579748,
+                                                              "recovery_remaining":  454137787.5951,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  9862854.4296875,
-                                                                                      "assigned":  24573865.410456732,
+                                                                                      "remaining":  12539965.723809276,
+                                                                                      "assigned":  31244041.179506034,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  14715512.032852564,
+                                                                                      "recovered":  18709798.245103057,
                                                                                       "rate":  59.88,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  23
+                                                                                      "compensation":  11797483
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  252037.10270270272,
-                                                                                      "assigned":  1507120.9405405407,
+                                                                                      "remaining":  281667.86678284651,
+                                                                                      "assigned":  1684305.7460732313,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  1255083.8378378379,
+                                                                                      "recovered":  1402637.8792903849,
                                                                                       "rate":  83.28,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  1
+                                                                                      "compensation":  1528975
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  324492037.3134073,
-                                                                                      "assigned":  690593173.33646452,
+                                                                                      "remaining":  441316154.00450784,
+                                                                                      "assigned":  939221577.70625985,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  366148617.99060631,
+                                                                                      "recovered":  497970000.19945842,
                                                                                       "rate":  53.02,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  307
+                                                                                      "compensation":  197673591
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1411,11 +1411,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  382119213.86129671,
-                                                              "recovery_rate":  53.32,
-                                                              "net_loss":  -382118882.86129671,
-                                                              "recovery_assigned":  716674159.68746185,
-                                                              "compensation":  331
+                                                              "recovery_actual":  518082436.32385188,
+                                                              "recovery_rate":  53.29,
+                                                              "net_loss":  -307082387.32385188,
+                                                              "recovery_assigned":  972149924.63183916,
+                                                              "compensation":  211000049
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
@@ -1484,34 +1484,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
-                                                              "recovery_remaining":  15309345.687832933,
+                                                              "recovery_remaining":  25853263.052038208,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  3430558.0625,
-                                                                                      "assigned":  8547431.447115384,
+                                                                                      "remaining":  1393508.6885833156,
+                                                                                      "assigned":  3472006.5276917466,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  5118438.967948718,
+                                                                                      "recovered":  2079133.7863618967,
                                                                                       "rate":  59.88,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  8
+                                                                                      "compensation":  1311000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  252037.10270270272,
-                                                                                      "assigned":  1507120.9405405407,
+                                                                                      "remaining":  4402.8594425088913,
+                                                                                      "assigned":  26328.03501113506,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  1255083.8378378379,
+                                                                                      "recovered":  21925.175568626168,
                                                                                       "rate":  83.28,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  1
+                                                                                      "compensation":  23900
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  11626750.52263023,
-                                                                                      "assigned":  24744380.803586677,
+                                                                                      "remaining":  24455351.504012384,
+                                                                                      "assigned":  52046573.900680386,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  13119331.589239964,
+                                                                                      "recovered":  27594800.876485657,
                                                                                       "rate":  53.02,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  11
+                                                                                      "compensation":  10954000
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1541,42 +1541,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  19492854.39502652,
-                                                              "recovery_rate":  56.02,
-                                                              "net_loss":  -19492834.39502652,
-                                                              "recovery_assigned":  34798933.191242605,
-                                                              "compensation":  20
+                                                              "recovery_actual":  29695859.838416182,
+                                                              "recovery_rate":  53.46,
+                                                              "net_loss":  -17406959.838416182,
+                                                              "recovery_assigned":  55544908.463383265,
+                                                              "compensation":  12288900
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  392971933.77069587,
+                                                              "recovery_remaining":  565703126.21486831,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  349059282.859375,
-                                                                                      "assigned":  869701149.74399042,
+                                                                                      "remaining":  515185922.21775174,
+                                                                                      "assigned":  1283615164.7776263,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  520801164.98878205,
+                                                                                      "recovered":  768664354.88815975,
                                                                                       "rate":  59.88,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  814
+                                                                                      "compensation":  484682119
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  15374263.264864866,
-                                                                                      "assigned":  91934377.37297298,
+                                                                                      "remaining":  29122548.905521039,
+                                                                                      "assigned":  174145801.65682921,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  76560114.108108118,
+                                                                                      "recovered":  145023252.75130817,
                                                                                       "rate":  83.28,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  61
+                                                                                      "compensation":  158085655
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  28538387.646456018,
-                                                                                      "assigned":  60736207.42698548,
+                                                                                      "remaining":  21394655.091595575,
+                                                                                      "assigned":  45532712.834718496,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  32201995.719043553,
+                                                                                      "recovered":  24141188.360216625,
                                                                                       "rate":  53.02,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  27
+                                                                                      "compensation":  9583058
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1594,7 +1594,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  10209
+                                                                                      "compensation":  1774224596
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1606,37 +1606,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  629563274.8159337,
-                                                              "recovery_rate":  61.58,
-                                                              "net_loss":  -629552163.8159337,
-                                                              "recovery_assigned":  1022371734.5439489,
-                                                              "compensation":  11111
+                                                              "recovery_actual":  937828795.99968457,
+                                                              "recovery_rate":  62.38,
+                                                              "net_loss":  1488746632.0003154,
+                                                              "recovery_assigned":  1503293679.2691739,
+                                                              "compensation":  2426575428
                                                           }
                                                       ],
                                 "month":  "2025-04",
                                 "reasons":  [
                                                 {
-                                                    "amount":  4992,
+                                                    "amount":  2013920741.1,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  292242,
+                                                    "amount":  3086406841.67168,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  1171,
+                                                    "amount":  554397663,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  185,
+                                                    "amount":  253104162,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  10209,
+                                                    "amount":  1774224596,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  308799,
+                                "compensation":  7682054003.7716808,
                                 "recovery_remaining":  3425015537,
                                 "recovery_assigned":  8246566408,
                                 "recovery_count":  22383,
@@ -1649,7 +1649,7 @@
                                                         "rate":  59.88,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3193905916,
-                                                        "compensation":  4992
+                                                        "compensation":  2013920741.1
                                                     },
                                                     {
                                                         "remaining":  46626864,
@@ -1659,7 +1659,7 @@
                                                         "rate":  83.28,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  232190510,
-                                                        "compensation":  185
+                                                        "compensation":  253104162
                                                     },
                                                     {
                                                         "remaining":  1237720442,
@@ -1669,7 +1669,7 @@
                                                         "rate":  53.02,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1396612481,
-                                                        "compensation":  1171
+                                                        "compensation":  554397663
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -1679,7 +1679,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  292242
+                                                        "compensation":  3086406841.67168
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -1689,7 +1689,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  10209
+                                                        "compensation":  1774224596
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -1705,40 +1705,40 @@
                                 "recovery_actual":  4822708907
                             },
                             {
-                                "net_loss":  -4411482127,
+                                "net_loss":  -995825488,
                                 "recovery_rate":  59.44,
                                 "compensation_count":  4895,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  2629579776.0587192,
+                                                              "recovery_remaining":  2103146020.9065557,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  2349913872.5571914,
-                                                                                      "assigned":  5493154447.7485847,
+                                                                                      "remaining":  1832257917.4045606,
+                                                                                      "assigned":  4283082816.7590489,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  3143240575.1913929,
+                                                                                      "recovered":  2450824899.3544884,
                                                                                       "rate":  57.22,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  3052
+                                                                                      "compensation":  931551293.1
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  20039437.6,
-                                                                                      "assigned":  81142032,
+                                                                                      "remaining":  13528990.997466447,
+                                                                                      "assigned":  54780470.508021362,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  61102594.400000006,
+                                                                                      "recovered":  41251479.510554917,
                                                                                       "rate":  75.3,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  76
+                                                                                      "compensation":  40447082
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  259626465.90152803,
-                                                                                      "assigned":  941759440.62478781,
+                                                                                      "remaining":  257359112.50452843,
+                                                                                      "assigned":  933534926.76622415,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  682132974.72325981,
+                                                                                      "recovered":  676175814.26169562,
                                                                                       "rate":  72.43,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  1728
+                                                                                      "compensation":  615489863.9
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1768,24 +1768,24 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  3886476144.3146529,
-                                                              "recovery_rate":  59.64,
-                                                              "net_loss":  -3886471288.3146529,
-                                                              "recovery_assigned":  6516055920.373373,
-                                                              "compensation":  4856
+                                                              "recovery_actual":  3168252193.1267385,
+                                                              "recovery_rate":  60.1,
+                                                              "net_loss":  -1580763954.1267385,
+                                                              "recovery_assigned":  5271398214.0332947,
+                                                              "compensation":  1587488239
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
-                                                              "recovery_remaining":  17878470.285105504,
+                                                              "recovery_remaining":  41661588.8709504,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  12319338.781426955,
-                                                                                      "assigned":  28797664.208380524,
+                                                                                      "remaining":  33577260.354000226,
+                                                                                      "assigned":  78490143.494524851,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  16478325.426953569,
+                                                                                      "recovered":  44912883.140524626,
                                                                                       "rate":  57.22,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  16
+                                                                                      "compensation":  17071254
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1797,13 +1797,13 @@
                                                                                       "compensation":  0
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  5559131.5036785509,
-                                                                                      "assigned":  20164988.022637237,
+                                                                                      "remaining":  8084328.516950178,
+                                                                                      "assigned":  29324794.279015031,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  14605856.518958688,
+                                                                                      "recovered":  21240465.762064852,
                                                                                       "rate":  72.43,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  37
+                                                                                      "compensation":  19334160
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -1833,11 +1833,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  31084181.945912257,
-                                                              "recovery_rate":  63.49,
-                                                              "net_loss":  -31084128.945912257,
-                                                              "recovery_assigned":  48962652.231017761,
-                                                              "compensation":  53
+                                                              "recovery_actual":  66153348.902589478,
+                                                              "recovery_rate":  61.36,
+                                                              "net_loss":  -29747934.902589478,
+                                                              "recovery_assigned":  107814937.77353989,
+                                                              "compensation":  36405414
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
@@ -1971,34 +1971,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  362571177.656175,
+                                                              "recovery_remaining":  865221814.22249448,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  357260824.6613816,
-                                                                                      "assigned":  835132262.043035,
+                                                                                      "remaining":  853658858.24143958,
+                                                                                      "assigned":  1995511413.7464271,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  477871437.38165343,
+                                                                                      "recovered":  1141852555.5049875,
                                                                                       "rate":  57.22,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  464
+                                                                                      "compensation":  434014778
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  5009859.4,
-                                                                                      "assigned":  20285508,
+                                                                                      "remaining":  11520306.002533553,
+                                                                                      "assigned":  46647069.491978645,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  15275648.600000001,
+                                                                                      "recovered":  35126763.48944509,
                                                                                       "rate":  75.3,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  19
+                                                                                      "compensation":  34441797
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  300493.59479343524,
-                                                                                      "assigned":  1089999.3525749859,
+                                                                                      "remaining":  42649.978521379679,
+                                                                                      "assigned":  154706.95476087573,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  789505.75778155064,
+                                                                                      "recovered":  112056.97623949604,
                                                                                       "rate":  72.43,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  2
+                                                                                      "compensation":  102000
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2016,7 +2016,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  9397
+                                                                                      "compensation":  1323219202
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2028,33 +2028,33 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  493936591.739435,
-                                                              "recovery_rate":  57.67,
-                                                              "net_loss":  -493926709.739435,
-                                                              "recovery_assigned":  856507769.39561,
-                                                              "compensation":  9882
+                                                              "recovery_actual":  1177091375.9706719,
+                                                              "recovery_rate":  57.64,
+                                                              "net_loss":  614686401.02932811,
+                                                              "recovery_assigned":  2042313190.1931665,
+                                                              "compensation":  1791777777
                                                           }
                                                       ],
                                 "month":  "2025-05",
                                 "reasons":  [
                                                 {
-                                                    "amount":  9397,
+                                                    "amount":  1323219202,
                                                     "reason":  "Đền bù xu"
                                                 },
                                                 {
-                                                    "amount":  95,
+                                                    "amount":  74888879,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  3532,
+                                                    "amount":  1382637325.1,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  1767,
+                                                    "amount":  634926023.9,
                                                     "reason":  "Quá hạn"
                                                 }
                                             ],
-                                "compensation":  14791,
+                                "compensation":  3415671430,
                                 "recovery_remaining":  3010029424,
                                 "recovery_assigned":  7421526342,
                                 "recovery_count":  23921,
@@ -2067,7 +2067,7 @@
                                                         "rate":  57.22,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3637590338,
-                                                        "compensation":  3532
+                                                        "compensation":  1382637325.1
                                                     },
                                                     {
                                                         "remaining":  25049297,
@@ -2077,7 +2077,7 @@
                                                         "rate":  75.3,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  76378243,
-                                                        "compensation":  95
+                                                        "compensation":  74888879
                                                     },
                                                     {
                                                         "remaining":  265486091,
@@ -2087,7 +2087,7 @@
                                                         "rate":  72.43,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  697528337,
-                                                        "compensation":  1767
+                                                        "compensation":  634926023.9
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -2107,7 +2107,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  9397
+                                                        "compensation":  1323219202
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -2123,40 +2123,40 @@
                                 "recovery_actual":  4411496918
                             },
                             {
-                                "net_loss":  -4496080643,
+                                "net_loss":  5685030929.62928,
                                 "recovery_rate":  69.53,
                                 "compensation_count":  4864,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  1578548909.1151786,
+                                                              "recovery_remaining":  1158973379.6770077,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1364568223.7038774,
-                                                                                      "assigned":  4197757367.574265,
+                                                                                      "remaining":  936946590.57802546,
+                                                                                      "assigned":  2882284949.4082932,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2833189143.8703876,
+                                                                                      "recovered":  1945338358.8302679,
                                                                                       "rate":  67.49,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  5341
+                                                                                      "compensation":  1471866488.4
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  25948720.375586852,
-                                                                                      "assigned":  176640229.85915491,
+                                                                                      "remaining":  19713733.192880154,
+                                                                                      "assigned":  134196920.39413904,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  150691509.48356807,
+                                                                                      "recovered":  114483187.20125888,
                                                                                       "rate":  85.31,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  160
+                                                                                      "compensation":  93219434
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  188031965.0357143,
-                                                                                      "assigned":  751435694.71092,
+                                                                                      "remaining":  202313055.906102,
+                                                                                      "assigned":  808507487.995542,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  563403729.67520571,
+                                                                                      "recovered":  606194432.08944011,
                                                                                       "rate":  74.98,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  6674
+                                                                                      "compensation":  1845178481.1
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2165,7 +2165,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  258074
+                                                                                      "compensation":  3593224308.3292804
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2186,24 +2186,24 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  3547284383.0291615,
-                                                              "recovery_rate":  69.2,
-                                                              "net_loss":  -3547014134.0291615,
-                                                              "recovery_assigned":  5125833292.1443405,
-                                                              "compensation":  270249
+                                                              "recovery_actual":  2666015978.1209669,
+                                                              "recovery_rate":  69.7,
+                                                              "net_loss":  4337472733.7083139,
+                                                              "recovery_assigned":  3824989357.7979741,
+                                                              "compensation":  7003488711.8292809
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
-                                                              "recovery_remaining":  3231064.0468149735,
+                                                              "recovery_remaining":  2888450.0896601565,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  2554892.761100688,
-                                                                                      "assigned":  7859497.0372107569,
+                                                                                      "remaining":  1939612.7206053028,
+                                                                                      "assigned":  5966739.8424840951,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  5304604.2761100689,
+                                                                                      "recovered":  4027127.1218787921,
                                                                                       "rate":  67.49,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  10
+                                                                                      "compensation":  3046973
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2215,13 +2215,13 @@
                                                                                       "compensation":  0
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  676171.28571428568,
-                                                                                      "assigned":  2702196.0852655196,
+                                                                                      "remaining":  948837.36905485357,
+                                                                                      "assigned":  3791856.7061084108,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  2026024.7995512341,
+                                                                                      "recovered":  2843019.3370535574,
                                                                                       "rate":  74.98,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  24
+                                                                                      "compensation":  8653788
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2251,42 +2251,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  7330629.0756613035,
-                                                              "recovery_rate":  69.41,
-                                                              "net_loss":  -7330595.0756613035,
-                                                              "recovery_assigned":  10561693.122476276,
-                                                              "compensation":  34
+                                                              "recovery_actual":  6870146.4589323495,
+                                                              "recovery_rate":  70.4,
+                                                              "net_loss":  4830614.5410676505,
+                                                              "recovery_assigned":  9758596.548592506,
+                                                              "compensation":  11700761
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
-                                                              "recovery_remaining":  258863745.77110159,
+                                                              "recovery_remaining":  472121339.87144214,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  141796548.24108818,
-                                                                                      "assigned":  436202085.565197,
+                                                                                      "remaining":  370160291.76334113,
+                                                                                      "assigned":  1138706782.8059006,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  294405537.32410884,
+                                                                                      "recovered":  768546491.0425595,
                                                                                       "rate":  67.49,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  555
+                                                                                      "compensation":  581491553.8
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  4541026.0657277,
-                                                                                      "assigned":  30912040.225352116,
+                                                                                      "remaining":  3892987.2835806753,
+                                                                                      "assigned":  26500658.169542033,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  26371014.159624416,
+                                                                                      "recovered":  22607670.885961361,
                                                                                       "rate":  85.31,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  28
+                                                                                      "compensation":  18408592
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  112526171.4642857,
-                                                                                      "assigned":  449690465.18960357,
+                                                                                      "remaining":  98068060.824520364,
+                                                                                      "assigned":  391911244.45585293,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  337164293.72531784,
+                                                                                      "recovered":  293843183.63133258,
                                                                                       "rate":  74.98,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  3994
+                                                                                      "compensation":  894421147
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2316,11 +2316,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  657940845.20905113,
-                                                              "recovery_rate":  71.76,
-                                                              "net_loss":  -657936268.20905113,
-                                                              "recovery_assigned":  916804590.98015261,
-                                                              "compensation":  4577
+                                                              "recovery_actual":  1084997345.5598536,
+                                                              "recovery_rate":  69.68,
+                                                              "net_loss":  409323947.2401464,
+                                                              "recovery_assigned":  1557118685.4312956,
+                                                              "compensation":  1494321292.8
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
@@ -2389,34 +2389,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  129356928.06690489,
+                                                              "recovery_remaining":  336017477.36189032,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  125189745.29393372,
-                                                                                      "assigned":  385115354.82332712,
+                                                                                      "remaining":  325062914.93802834,
+                                                                                      "assigned":  999975832.94332266,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  259925609.52939337,
+                                                                                      "recovered":  674912918.00529432,
                                                                                       "rate":  67.49,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  490
+                                                                                      "compensation":  510647262
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  4054487.5586854462,
-                                                                                      "assigned":  27600035.915492959,
+                                                                                      "remaining":  10937513.523539171,
+                                                                                      "assigned":  74454727.436318934,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  23545548.356807511,
+                                                                                      "recovered":  63517213.912779763,
                                                                                       "rate":  85.31,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  25
+                                                                                      "compensation":  51719723
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  112695.21428571429,
-                                                                                      "assigned":  450366.01421091997,
+                                                                                      "remaining":  17048.900322777303,
+                                                                                      "assigned":  68132.842496593992,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  337670.79992520571,
+                                                                                      "recovered":  51083.942173816686,
                                                                                       "rate":  74.98,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  4
+                                                                                      "compensation":  155493
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2434,7 +2434,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  8664
+                                                                                      "compensation":  1109362372
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2446,37 +2446,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  283808828.68612611,
-                                                              "recovery_rate":  68.69,
-                                                              "net_loss":  -283799645.68612611,
-                                                              "recovery_assigned":  413165756.753031,
-                                                              "compensation":  9183
+                                                              "recovery_actual":  738481215.860248,
+                                                              "recovery_rate":  68.73,
+                                                              "net_loss":  933403634.139752,
+                                                              "recovery_assigned":  1074498693.2221382,
+                                                              "compensation":  1671884850
                                                           }
                                                       ],
                                 "month":  "2025-06",
                                 "reasons":  [
                                                 {
-                                                    "amount":  6396,
+                                                    "amount":  2567052277.2,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  258074,
+                                                    "amount":  3593224308.3292804,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  10696,
+                                                    "amount":  2748408909.1,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  213,
+                                                    "amount":  163347749,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  8664,
+                                                    "amount":  1109362372,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  284043,
+                                "compensation":  10181395615.62928,
                                 "recovery_remaining":  1970000647,
                                 "recovery_assigned":  6466365333,
                                 "recovery_count":  28462,
@@ -2489,7 +2489,7 @@
                                                         "rate":  67.49,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3392824895,
-                                                        "compensation":  6396
+                                                        "compensation":  2567052277.2
                                                     },
                                                     {
                                                         "remaining":  34544234,
@@ -2499,7 +2499,7 @@
                                                         "rate":  85.31,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  200608072,
-                                                        "compensation":  213
+                                                        "compensation":  163347749
                                                     },
                                                     {
                                                         "remaining":  301347003,
@@ -2509,7 +2509,7 @@
                                                         "rate":  74.98,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  902931719,
-                                                        "compensation":  10696
+                                                        "compensation":  2748408909.1
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -2519,7 +2519,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  258074
+                                                        "compensation":  3593224308.3292804
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -2529,7 +2529,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  8664
+                                                        "compensation":  1109362372
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -2545,40 +2545,40 @@
                                 "recovery_actual":  4496364686
                             },
                             {
-                                "net_loss":  -4322150744,
+                                "net_loss":  1347681368.2175999,
                                 "recovery_rate":  69.81,
                                 "compensation_count":  4576,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  1425374694.7246945,
+                                                              "recovery_remaining":  1332954556.1860447,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1066982426.8046252,
-                                                                                      "assigned":  3448574607.2398324,
+                                                                                      "remaining":  983881771.46709991,
+                                                                                      "assigned":  3179986481.8475347,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2381592180.4352074,
+                                                                                      "recovered":  2196104710.3804345,
                                                                                       "rate":  69.06,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  3913
+                                                                                      "compensation":  1222055928.6
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  87943412.368421048,
-                                                                                      "assigned":  384991930.2631579,
+                                                                                      "remaining":  85259976.991402537,
+                                                                                      "assigned":  373244592.54095495,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  297128445,
+                                                                                      "recovered":  288062103.82266122,
                                                                                       "rate":  77.18,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  300
+                                                                                      "compensation":  225752060
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  270448855.55164832,
-                                                                                      "assigned":  890046443.86153841,
+                                                                                      "remaining":  263812807.72754222,
+                                                                                      "assigned":  868207228.62399125,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  619597588.30989,
+                                                                                      "recovered":  604394420.89644909,
                                                                                       "rate":  69.61,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  2841
+                                                                                      "compensation":  922872292
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2587,7 +2587,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  195275
+                                                                                      "compensation":  1012478652.8176
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2608,24 +2608,24 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  3298318213.7450972,
-                                                              "recovery_rate":  69.83,
-                                                              "net_loss":  -3298115884.7450972,
-                                                              "recovery_assigned":  4723612981.3645287,
-                                                              "compensation":  202329
+                                                              "recovery_actual":  3088561235.099545,
+                                                              "recovery_rate":  69.85,
+                                                              "net_loss":  294597698.31805468,
+                                                              "recovery_assigned":  4421438303.0124807,
+                                                              "compensation":  3383158933.4175997
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
-                                                              "recovery_remaining":  8754697.3436756227,
+                                                              "recovery_remaining":  10558214.273358362,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  4090144.7488038279,
-                                                                                      "assigned":  13219682.879784688,
+                                                                                      "remaining":  4309548.7142551914,
+                                                                                      "assigned":  13928814.468998617,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  9129538.13098086,
+                                                                                      "recovered":  9619265.7547434252,
                                                                                       "rate":  69.06,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  15
+                                                                                      "compensation":  5352787
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2637,13 +2637,13 @@
                                                                                       "compensation":  0
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  4664552.5948717948,
-                                                                                      "assigned":  15351029.830769232,
+                                                                                      "remaining":  6248665.55910317,
+                                                                                      "assigned":  20564341.263029434,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  10686477.235897437,
+                                                                                      "recovered":  14315675.703926263,
                                                                                       "rate":  69.61,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  49
+                                                                                      "compensation":  21859137
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2673,42 +2673,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  19816015.366878297,
-                                                              "recovery_rate":  69.36,
-                                                              "net_loss":  -19815951.366878297,
-                                                              "recovery_assigned":  28570712.710553922,
-                                                              "compensation":  64
+                                                              "recovery_actual":  23934941.458669689,
+                                                              "recovery_rate":  69.39,
+                                                              "net_loss":  3276982.5413303114,
+                                                              "recovery_assigned":  34493155.732028052,
+                                                              "compensation":  27211924
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
-                                                              "recovery_remaining":  239543209.00660041,
+                                                              "recovery_remaining":  183283306.2231634,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  123249695.09728867,
-                                                                                      "assigned":  398353110.77751195,
+                                                                                      "remaining":  60808160.697471723,
+                                                                                      "assigned":  196536956.58537638,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  275103415.68022329,
+                                                                                      "recovered":  135728795.88790467,
                                                                                       "rate":  69.06,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  452
+                                                                                      "compensation":  75528356.6
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  2345157.6631578947,
-                                                                                      "assigned":  10266451.47368421,
+                                                                                      "remaining":  4531655.098752657,
+                                                                                      "assigned":  19838332.363620456,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  7923425.2,
+                                                                                      "recovered":  15310795.845945559,
                                                                                       "rate":  77.18,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  8
+                                                                                      "compensation":  11998953.2
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  113948356.24615385,
-                                                                                      "assigned":  375003728.72307694,
+                                                                                      "remaining":  117943490.42693901,
+                                                                                      "assigned":  388151704.3841477,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  261055372.47692308,
+                                                                                      "recovered":  270208213.95720869,
                                                                                       "rate":  69.61,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  1197
+                                                                                      "compensation":  412590959
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2738,42 +2738,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  544082213.35714638,
-                                                              "recovery_rate":  69.43,
-                                                              "net_loss":  -544080556.35714638,
-                                                              "recovery_assigned":  783623290.97427309,
-                                                              "compensation":  1657
+                                                              "recovery_actual":  421247805.69105893,
+                                                              "recovery_rate":  69.68,
+                                                              "net_loss":  78870463.108941078,
+                                                              "recovery_assigned":  604526993.33314455,
+                                                              "compensation":  500118268.8
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
-                                                              "recovery_remaining":  1504861.9974788369,
+                                                              "recovery_remaining":  2730755.3278019382,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  545352.63317384373,
-                                                                                      "assigned":  1762624.3839712918,
+                                                                                      "remaining":  896885.54162164184,
+                                                                                      "assigned":  2898807.5405325228,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  1217271.7507974482,
+                                                                                      "recovered":  2001921.9989108809,
                                                                                       "rate":  69.06,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  2
+                                                                                      "compensation":  1114000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  293144.70789473684,
-                                                                                      "assigned":  1283306.4342105263,
+                                                                                      "remaining":  72682.759005589673,
+                                                                                      "assigned":  318185.01162074349,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  990428.15,
+                                                                                      "recovered":  245568.31012160491,
                                                                                       "rate":  77.18,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  1
+                                                                                      "compensation":  192450
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  666364.6564102564,
-                                                                                      "assigned":  2193004.2615384613,
+                                                                                      "remaining":  1761187.0271747066,
+                                                                                      "assigned":  5796061.689055901,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1526639.6051282051,
+                                                                                      "recovered":  4034874.6618811944,
                                                                                       "rate":  69.61,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  7
+                                                                                      "compensation":  6161000
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2803,42 +2803,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  3734339.5059256535,
-                                                              "recovery_rate":  71.28,
-                                                              "net_loss":  -3734329.5059256535,
-                                                              "recovery_assigned":  5238935.0797202792,
-                                                              "compensation":  10
+                                                              "recovery_actual":  6282364.97091368,
+                                                              "recovery_rate":  69.7,
+                                                              "net_loss":  1185085.0290863197,
+                                                              "recovery_assigned":  9013054.241209168,
+                                                              "compensation":  7467450
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  193785253.92755055,
+                                                              "recovery_remaining":  339435884.98963165,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  172876784.71610847,
-                                                                                      "assigned":  558751929.71889961,
+                                                                                      "remaining":  317848037.57955158,
+                                                                                      "assigned":  1027310894.5575579,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  385875145.00279111,
+                                                                                      "recovered":  709462856.97800636,
                                                                                       "rate":  69.06,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  634
+                                                                                      "compensation":  394791417
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  20813274.260526314,
-                                                                                      "assigned":  91114756.828947365,
+                                                                                      "remaining":  21530674.150839217,
+                                                                                      "assigned":  94255335.083803877,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  70320398.65,
+                                                                                      "recovered":  72744229.021271616,
                                                                                       "rate":  77.18,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  71
+                                                                                      "compensation":  57009094
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  95194.950915750916,
-                                                                                      "assigned":  313286.32307692309,
+                                                                                      "remaining":  57173.2592408781,
+                                                                                      "assigned":  188157.03977567542,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  218091.37216117216,
+                                                                                      "recovered":  130983.78053479732,
                                                                                       "rate":  69.61,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  1
+                                                                                      "compensation":  200004
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2856,7 +2856,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  8907
+                                                                                      "compensation":  1300088694
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -2868,37 +2868,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  456413635.02495229,
-                                                              "recovery_rate":  70.2,
-                                                              "net_loss":  -456404022.02495229,
-                                                              "recovery_assigned":  650179972.870924,
-                                                              "compensation":  9613
+                                                              "recovery_actual":  782338069.77981269,
+                                                              "recovery_rate":  69.74,
+                                                              "net_loss":  969751139.22018731,
+                                                              "recovery_assigned":  1121754386.6811373,
+                                                              "compensation":  1752089209
                                                           }
                                                       ],
                                 "month":  "2025-07",
                                 "reasons":  [
                                                 {
-                                                    "amount":  5016,
+                                                    "amount":  1698842489.1999998,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  195275,
+                                                    "amount":  1012478652.8176,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  4095,
+                                                    "amount":  1363683392,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  380,
+                                                    "amount":  294952557.2,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  8907,
+                                                    "amount":  1300088694,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  213673,
+                                "compensation":  5670045785.2176,
                                 "recovery_remaining":  1868962717,
                                 "recovery_assigned":  6191225893,
                                 "recovery_count":  29155,
@@ -2911,7 +2911,7 @@
                                                         "rate":  69.06,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3052917551,
-                                                        "compensation":  5016
+                                                        "compensation":  1698842489.1999998
                                                     },
                                                     {
                                                         "remaining":  111394989,
@@ -2921,7 +2921,7 @@
                                                         "rate":  77.18,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  376362697,
-                                                        "compensation":  380
+                                                        "compensation":  294952557.2
                                                     },
                                                     {
                                                         "remaining":  389823324,
@@ -2931,7 +2931,7 @@
                                                         "rate":  69.61,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  893084169,
-                                                        "compensation":  4095
+                                                        "compensation":  1363683392
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -2941,7 +2941,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  195275
+                                                        "compensation":  1012478652.8176
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -2951,7 +2951,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  8907
+                                                        "compensation":  1300088694
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -2967,40 +2967,40 @@
                                 "recovery_actual":  4322364417
                             },
                             {
-                                "net_loss":  -4117367949,
+                                "net_loss":  9576275974.9636,
                                 "recovery_rate":  63.72,
                                 "compensation_count":  3337,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  2104752684.1737738,
+                                                              "recovery_remaining":  1760274951.3421078,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1354479487.2194641,
-                                                                                      "assigned":  3716728235.8019748,
+                                                                                      "remaining":  1048583522.4062437,
+                                                                                      "assigned":  2877341460.0205793,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2362248748.5825105,
+                                                                                      "recovered":  1828757937.6143358,
                                                                                       "rate":  63.56,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  3027
+                                                                                      "compensation":  1019350872
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  84591246.414342627,
-                                                                                      "assigned":  349866006.45418328,
+                                                                                      "remaining":  46190886.780151814,
+                                                                                      "assigned":  191043657.32113123,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  265274760.03984064,
+                                                                                      "recovered":  144852770.54097942,
                                                                                       "rate":  75.82,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  230
+                                                                                      "compensation":  126112451.9
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  665681950.53996706,
-                                                                                      "assigned":  1727237641.6316907,
+                                                                                      "remaining":  665500542.15571249,
+                                                                                      "assigned":  1726766943.290632,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1061555691.0917237,
+                                                                                      "recovered":  1061266401.1349194,
                                                                                       "rate":  61.46,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  4240
+                                                                                      "compensation":  1374623881.2
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3009,7 +3009,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  411500
+                                                                                      "compensation":  9706143613.8636
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3030,11 +3030,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  3689079199.7140751,
-                                                              "recovery_rate":  63.67,
-                                                              "net_loss":  -3688660202.7140751,
-                                                              "recovery_assigned":  5793831883.8878489,
-                                                              "compensation":  418997
+                                                              "recovery_actual":  3034877109.2902346,
+                                                              "recovery_rate":  63.29,
+                                                              "net_loss":  9191353709.6733665,
+                                                              "recovery_assigned":  4795152060.6323423,
+                                                              "compensation":  12226230818.9636
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
@@ -3233,34 +3233,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  239667920.82622632,
+                                                              "recovery_remaining":  584145653.657892,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  231787371.78053597,
-                                                                                      "assigned":  636030798.19802535,
+                                                                                      "remaining":  537683336.59375632,
+                                                                                      "assigned":  1475417573.9794204,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  404243426.41748941,
+                                                                                      "recovered":  937734237.38566422,
                                                                                       "rate":  63.56,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  518
+                                                                                      "compensation":  522693678
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  7723548.58565737,
-                                                                                      "assigned":  31944287.545816731,
+                                                                                      "remaining":  46123908.219848178,
+                                                                                      "assigned":  190766636.67886874,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  24220738.960159361,
+                                                                                      "recovered":  144642728.45902058,
                                                                                       "rate":  75.82,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  21
+                                                                                      "compensation":  125929584
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  157000.4600330111,
-                                                                                      "assigned":  407367.368309361,
+                                                                                      "remaining":  338408.84428746608,
+                                                                                      "assigned":  878065.70936805848,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  250366.90827634992,
+                                                                                      "recovered":  539656.86508059234,
                                                                                       "rate":  61.46,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  1
+                                                                                      "compensation":  699000
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3278,7 +3278,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  6246
+                                                                                      "compensation":  818516626
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3290,37 +3290,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  428714532.28592515,
-                                                              "recovery_rate":  64.14,
-                                                              "net_loss":  -428707746.28592515,
-                                                              "recovery_assigned":  668382453.1121515,
-                                                              "compensation":  6786
+                                                              "recovery_actual":  1082916622.7097654,
+                                                              "recovery_rate":  64.96,
+                                                              "net_loss":  384922265.29023457,
+                                                              "recovery_assigned":  1667062276.3676572,
+                                                              "compensation":  1467838888
                                                           }
                                                       ],
                                 "month":  "2025-08",
                                 "reasons":  [
                                                 {
-                                                    "amount":  3545,
+                                                    "amount":  1542044550,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  411500,
+                                                    "amount":  9706143613.8636,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  4241,
+                                                    "amount":  1375322881.2,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  251,
+                                                    "amount":  252042035.9,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  6246,
+                                                    "amount":  818516626,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  425783,
+                                "compensation":  13694069706.9636,
                                 "recovery_remaining":  2344420605,
                                 "recovery_assigned":  6462214337,
                                 "recovery_count":  24246,
@@ -3333,7 +3333,7 @@
                                                         "rate":  63.56,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  2766492175,
-                                                        "compensation":  3545
+                                                        "compensation":  1542044550
                                                     },
                                                     {
                                                         "remaining":  92314795,
@@ -3343,7 +3343,7 @@
                                                         "rate":  75.82,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  289495499,
-                                                        "compensation":  251
+                                                        "compensation":  252042035.9
                                                     },
                                                     {
                                                         "remaining":  665838951,
@@ -3353,7 +3353,7 @@
                                                         "rate":  61.46,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1061806058,
-                                                        "compensation":  4241
+                                                        "compensation":  1375322881.2
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -3363,7 +3363,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  411500
+                                                        "compensation":  9706143613.8636
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -3373,7 +3373,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  6246
+                                                        "compensation":  818516626
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -3389,40 +3389,40 @@
                                 "recovery_actual":  4117793732
                             },
                             {
-                                "net_loss":  -5009056942,
+                                "net_loss":  4019842706.1140785,
                                 "recovery_rate":  56.22,
                                 "compensation_count":  6774,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  3473692457.0230789,
+                                                              "recovery_remaining":  3304365497.9194117,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  2107521839.0662498,
-                                                                                      "assigned":  4860050116.5218744,
+                                                                                      "remaining":  1962848314.0352297,
+                                                                                      "assigned":  4526425776.7161427,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2752528277.4556251,
+                                                                                      "recovered":  2563577462.680913,
                                                                                       "rate":  56.64,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  4029
+                                                                                      "compensation":  1490598104.6
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  94914765.458445042,
-                                                                                      "assigned":  397563187.17426276,
+                                                                                      "remaining":  76147284.297220647,
+                                                                                      "assigned":  318953082.73317933,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  302648421.71581769,
+                                                                                      "recovered":  242805798.43595868,
                                                                                       "rate":  76.13,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  324
+                                                                                      "compensation":  212388030.7
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1271255852.498384,
-                                                                                      "assigned":  2642190160.7401423,
+                                                                                      "remaining":  1265369899.5869613,
+                                                                                      "assigned":  2629956740.6629982,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1370934308.2417583,
+                                                                                      "recovered":  1364586841.0760367,
                                                                                       "rate":  51.89,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  4605
+                                                                                      "compensation":  1805994218.6000001
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3431,7 +3431,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  249184
+                                                                                      "compensation":  3128710924.21408
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3452,42 +3452,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  4426111007.4132013,
-                                                              "recovery_rate":  56.03,
-                                                              "net_loss":  -4425852865.4132013,
-                                                              "recovery_assigned":  7899803464.4362793,
-                                                              "compensation":  258142
+                                                              "recovery_actual":  4170970102.1929083,
+                                                              "recovery_rate":  55.8,
+                                                              "net_loss":  2466721175.9211721,
+                                                              "recovery_assigned":  7475335600.11232,
+                                                              "compensation":  6637691278.11408
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
-                                                              "recovery_remaining":  16820075.266158447,
+                                                              "recovery_remaining":  54475473.415395007,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  8369409.1400000006,
-                                                                                      "assigned":  19300273.483333334,
+                                                                                      "remaining":  11576156.921563946,
+                                                                                      "assigned":  26695193.260938641,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  10930864.343333334,
+                                                                                      "recovered":  15119036.339374695,
                                                                                       "rate":  56.64,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  16
+                                                                                      "compensation":  8790999
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  2929468.0697050937,
-                                                                                      "assigned":  12270468.73994638,
+                                                                                      "remaining":  27930490.569807712,
+                                                                                      "assigned":  116990594.63129562,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  9341000.670241287,
+                                                                                      "recovered":  89060104.061487913,
                                                                                       "rate":  76.13,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  10
+                                                                                      "compensation":  77903000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  5521198.0564533509,
-                                                                                      "assigned":  11475310.144365439,
+                                                                                      "remaining":  14968825.924023341,
+                                                                                      "assigned":  31111349.062077742,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  5954112.0879120883,
+                                                                                      "recovered":  16142523.138054403,
                                                                                       "rate":  51.89,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  20
+                                                                                      "compensation":  21364198
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3517,11 +3517,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  26225977.101486713,
-                                                              "recovery_rate":  60.93,
-                                                              "net_loss":  -26225931.101486713,
-                                                              "recovery_assigned":  43046052.367645152,
-                                                              "compensation":  46
+                                                              "recovery_actual":  120321663.538917,
+                                                              "recovery_rate":  68.84,
+                                                              "net_loss":  -12263466.538917005,
+                                                              "recovery_assigned":  174797136.954312,
+                                                              "compensation":  108058197
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
@@ -3590,34 +3590,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
-                                                              "recovery_remaining":  7857917.8274338869,
+                                                              "recovery_remaining":  5207082.1543259658,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  4184704.5700000003,
-                                                                                      "assigned":  9650136.7416666672,
+                                                                                      "remaining":  4061070.6412437558,
+                                                                                      "assigned":  9365030.7566563,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  5465432.1716666669,
+                                                                                      "recovered":  5303960.1154125445,
                                                                                       "rate":  56.64,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  8
+                                                                                      "compensation":  3084000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1464734.0348525469,
-                                                                                      "assigned":  6135234.36997319,
+                                                                                      "remaining":  403883.0035671076,
+                                                                                      "assigned":  1691717.96788512,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  4670500.3351206435,
+                                                                                      "recovered":  1287834.9643180126,
                                                                                       "rate":  76.13,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  5
+                                                                                      "compensation":  1126500
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  2208479.22258134,
-                                                                                      "assigned":  4590124.0577461757,
+                                                                                      "remaining":  742128.5095151019,
+                                                                                      "assigned":  1542446.8976814735,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  2381644.8351648352,
+                                                                                      "recovered":  800318.38816637162,
                                                                                       "rate":  51.89,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  8
+                                                                                      "compensation":  1059200
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3647,42 +3647,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  12517577.341952147,
-                                                              "recovery_rate":  61.43,
-                                                              "net_loss":  -12517556.341952147,
-                                                              "recovery_assigned":  20375495.169386033,
-                                                              "compensation":  21
+                                                              "recovery_actual":  7392113.467896929,
+                                                              "recovery_rate":  58.67,
+                                                              "net_loss":  -2122413.467896929,
+                                                              "recovery_assigned":  12599195.622222893,
+                                                              "compensation":  5269700
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  402915459.88332868,
+                                                              "recovery_remaining":  537237856.51086748,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  390746789.22375005,
-                                                                                      "assigned":  901081518.25312507,
+                                                                                      "remaining":  532337200.4019627,
+                                                                                      "assigned":  1227596044.2662625,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  510334729.029375,
+                                                                                      "recovered":  695258843.86429989,
                                                                                       "rate":  56.64,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  747
+                                                                                      "compensation":  404259879
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  9960191.43699732,
-                                                                                      "assigned":  41719593.7158177,
+                                                                                      "remaining":  4787501.1294045355,
+                                                                                      "assigned":  20053088.667639967,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  31759402.278820377,
+                                                                                      "recovered":  15265587.53823543,
                                                                                       "rate":  76.13,
                                                                                       "status":  "Dat chi tieu",
-                                                                                      "compensation":  34
+                                                                                      "compensation":  13353174
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  2208479.22258134,
-                                                                                      "assigned":  4590124.0577461757,
+                                                                                      "remaining":  113154.97950027282,
+                                                                                      "assigned":  235182.37724278512,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  2381644.8351648352,
+                                                                                      "recovered":  122027.3977425123,
                                                                                       "rate":  51.89,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  8
+                                                                                      "compensation":  161500
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3700,7 +3700,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  14398
+                                                                                      "compensation":  1860379316
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3712,37 +3712,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  544475776.14336014,
-                                                              "recovery_rate":  57.47,
-                                                              "net_loss":  -544460589.14336014,
-                                                              "recovery_assigned":  947391236.02668893,
-                                                              "compensation":  15187
+                                                              "recovery_actual":  710646458.80027783,
+                                                              "recovery_rate":  56.95,
+                                                              "net_loss":  1567507410.1997223,
+                                                              "recovery_assigned":  1247884315.3111453,
+                                                              "compensation":  2278153869
                                                           }
                                                       ],
                                 "month":  "2025-09",
                                 "reasons":  [
                                                 {
-                                                    "amount":  4800,
+                                                    "amount":  1906732982.6,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  249184,
+                                                    "amount":  3128710924.21408,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  4641,
+                                                    "amount":  1828579116.6000001,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  373,
+                                                    "amount":  304770704.7,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  14398,
+                                                    "amount":  1860379316,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  273396,
+                                "compensation":  9029173044.1140785,
                                 "recovery_remaining":  3901285910,
                                 "recovery_assigned":  8910616248,
                                 "recovery_count":  27350,
@@ -3755,7 +3755,7 @@
                                                         "rate":  56.64,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3279259303,
-                                                        "compensation":  4800
+                                                        "compensation":  1906732982.6
                                                     },
                                                     {
                                                         "remaining":  109269159,
@@ -3765,7 +3765,7 @@
                                                         "rate":  76.13,
                                                         "status":  "Dat chi tieu",
                                                         "recovered":  348419325,
-                                                        "compensation":  373
+                                                        "compensation":  304770704.7
                                                     },
                                                     {
                                                         "remaining":  1281194009,
@@ -3775,7 +3775,7 @@
                                                         "rate":  51.89,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1381651710,
-                                                        "compensation":  4641
+                                                        "compensation":  1828579116.6000001
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -3785,7 +3785,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  249184
+                                                        "compensation":  3128710924.21408
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -3795,7 +3795,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  14398
+                                                        "compensation":  1860379316
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -3811,40 +3811,40 @@
                                 "recovery_actual":  5009330338
                             },
                             {
-                                "net_loss":  -5121067535,
+                                "net_loss":  8868872984.67832,
                                 "recovery_rate":  45.8,
                                 "compensation_count":  7881,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  5475298573.6889715,
+                                                              "recovery_remaining":  5220982866.9448872,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  3777119781.1916718,
-                                                                                      "assigned":  6735341395.0183706,
+                                                                                      "remaining":  3569743730.4799933,
+                                                                                      "assigned":  6365549442.5235186,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2958222590.1659522,
+                                                                                      "recovered":  2795806634.7786064,
                                                                                       "rate":  43.92,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  5684
+                                                                                      "compensation":  2510789004.6000004
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  221843752.5219976,
-                                                                                      "assigned":  619707414.40546966,
+                                                                                      "remaining":  173087552.68294877,
+                                                                                      "assigned":  483509851.05286944,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  397863661.883472,
+                                                                                      "recovered":  310422298.36992067,
                                                                                       "rate":  64.2,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  769
+                                                                                      "compensation":  825065743.1
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1476335039.975302,
-                                                                                      "assigned":  2761082034.66191,
+                                                                                      "remaining":  1478151583.781945,
+                                                                                      "assigned":  2764479384.4056258,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1284746994.6866081,
+                                                                                      "recovered":  1286327800.6236808,
                                                                                       "rate":  46.53,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  14556
+                                                                                      "compensation":  6554043704.2
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3853,7 +3853,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  82104
+                                                                                      "compensation":  700717475.77832007
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -3874,11 +3874,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  4640833246.7360325,
-                                                              "recovery_rate":  45.88,
-                                                              "net_loss":  -4640730133.7360325,
-                                                              "recovery_assigned":  10116130844.085751,
-                                                              "compensation":  103113
+                                                              "recovery_actual":  4392556733.7722082,
+                                                              "recovery_rate":  45.69,
+                                                              "net_loss":  6198059193.9061117,
+                                                              "recovery_assigned":  9613538677.9820137,
+                                                              "compensation":  10590615927.67832
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
@@ -4077,34 +4077,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  586310481.31102884,
+                                                              "recovery_remaining":  840626188.05511284,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  563511184.80832827,
-                                                                                      "assigned":  1004850369.981629,
+                                                                                      "remaining":  770887235.52000666,
+                                                                                      "assigned":  1374642322.476481,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  441339330.83404779,
+                                                                                      "recovered":  603755286.22139335,
                                                                                       "rate":  43.92,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  848
+                                                                                      "compensation":  542205643
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  20770806.478002377,
-                                                                                      "assigned":  58022020.594530322,
+                                                                                      "remaining":  69527006.317051247,
+                                                                                      "assigned":  194219583.94713062,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  37251214.116527945,
+                                                                                      "recovered":  124692577.63007936,
                                                                                       "rate":  64.2,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  72
+                                                                                      "compensation":  331418119
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  2028490.024698134,
-                                                                                      "assigned":  3793737.3380900114,
+                                                                                      "remaining":  211946.21805490542,
+                                                                                      "assigned":  396387.59437405557,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1765247.3133918771,
+                                                                                      "recovered":  184441.37631915018,
                                                                                       "rate":  46.53,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  20
+                                                                                      "compensation":  939758
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4122,7 +4122,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  17451
+                                                                                      "compensation":  2524882576
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4134,37 +4134,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  480355792.26396757,
-                                                              "recovery_rate":  45.03,
-                                                              "net_loss":  -480337401.26396757,
-                                                              "recovery_assigned":  1066666127.9142494,
-                                                              "compensation":  18391
+                                                              "recovery_actual":  728632305.22779191,
+                                                              "recovery_rate":  46.43,
+                                                              "net_loss":  2670813790.7722082,
+                                                              "recovery_assigned":  1569258294.0179856,
+                                                              "compensation":  3399446096
                                                           }
                                                       ],
                                 "month":  "2025-10",
                                 "reasons":  [
                                                 {
-                                                    "amount":  6532,
+                                                    "amount":  3052994647.6000004,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  82104,
+                                                    "amount":  700717475.77832007,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  14576,
+                                                    "amount":  6554983462.2,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  841,
+                                                    "amount":  1156483862.1,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  17451,
+                                                    "amount":  2524882576,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  121504,
+                                "compensation":  13990062023.67832,
                                 "recovery_remaining":  6061609055,
                                 "recovery_assigned":  11182796972,
                                 "recovery_count":  27334,
@@ -4177,7 +4177,7 @@
                                                         "rate":  43.92,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3399561921,
-                                                        "compensation":  6532
+                                                        "compensation":  3052994647.6000004
                                                     },
                                                     {
                                                         "remaining":  242614559,
@@ -4187,7 +4187,7 @@
                                                         "rate":  64.2,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  435114876,
-                                                        "compensation":  841
+                                                        "compensation":  1156483862.1
                                                     },
                                                     {
                                                         "remaining":  1478363530,
@@ -4197,7 +4197,7 @@
                                                         "rate":  46.53,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1286512242,
-                                                        "compensation":  14576
+                                                        "compensation":  6554983462.2
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -4207,7 +4207,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  82104
+                                                        "compensation":  700717475.77832007
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -4217,7 +4217,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  17451
+                                                        "compensation":  2524882576
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -4233,40 +4233,40 @@
                                 "recovery_actual":  5121189039
                             },
                             {
-                                "net_loss":  -4557558402,
+                                "net_loss":  10274235672.308401,
                                 "recovery_rate":  51.8,
                                 "compensation_count":  7220,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  1292403621.2972109,
+                                                              "recovery_remaining":  1935169641.1668003,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  727335944.68127239,
-                                                                                      "assigned":  1459434089.9362545,
+                                                                                      "remaining":  1131870169.4098988,
+                                                                                      "assigned":  2271151209.6966529,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  747008625.66530514,
+                                                                                      "recovered":  1162484524.3320959,
                                                                                       "rate":  51.18,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  3965
+                                                                                      "compensation":  1621546795.4
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  123611315.18016194,
-                                                                                      "assigned":  361769580.64979756,
+                                                                                      "remaining":  154006351.25123397,
+                                                                                      "assigned":  450725833.86367738,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  243301853.05263156,
+                                                                                      "recovered":  303127837.33987123,
                                                                                       "rate":  67.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  582
+                                                                                      "compensation":  754755312
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  441456361.43577665,
-                                                                                      "assigned":  849819856.2841723,
+                                                                                      "remaining":  649293120.50566745,
+                                                                                      "assigned":  1249913319.9934683,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  418095947.8912766,
+                                                                                      "recovered":  614934671.6721741,
                                                                                       "rate":  49.2,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  7744
+                                                                                      "compensation":  3657975669.7999997
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4275,7 +4275,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  9596
+                                                                                      "compensation":  849559827.3084
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4296,11 +4296,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  1408406426.6092134,
-                                                              "recovery_rate":  52.73,
-                                                              "net_loss":  -1408384539.6092134,
-                                                              "recovery_assigned":  2671023526.870224,
-                                                              "compensation":  21887
+                                                              "recovery_actual":  2080547033.344141,
+                                                              "recovery_rate":  52.38,
+                                                              "net_loss":  4803290571.164259,
+                                                              "recovery_assigned":  3971790363.5537987,
+                                                              "compensation":  6883837604.5084
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
@@ -4369,34 +4369,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
-                                                              "recovery_remaining":  2866939685.6782956,
+                                                              "recovery_remaining":  2000886200.8101838,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  2093957076.554029,
-                                                                                      "assigned":  4201624246.3108058,
+                                                                                      "remaining":  1448784716.6952269,
+                                                                                      "assigned":  2907055288.529995,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2150593559.1347938,
+                                                                                      "recovered":  1487970844.8585711,
                                                                                       "rate":  51.18,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  11415
+                                                                                      "compensation":  2075566861.0000002
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  53734815.705465585,
-                                                                                      "assigned":  157264096.05566803,
+                                                                                      "remaining":  40104830.250311539,
+                                                                                      "assigned":  117373620.69597158,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  105765238.52631579,
+                                                                                      "recovered":  78937591.611580878,
                                                                                       "rate":  67.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  253
+                                                                                      "compensation":  196546008.8
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  719247793.41880083,
-                                                                                      "assigned":  1384578657.894809,
+                                                                                      "remaining":  511996653.86464524,
+                                                                                      "assigned":  985612533.45655835,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  681187574.19217932,
+                                                                                      "recovered":  484903480.87518233,
                                                                                       "rate":  49.2,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  12617
+                                                                                      "compensation":  2884477355
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4426,11 +4426,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  2937546371.8532887,
-                                                              "recovery_rate":  51.15,
-                                                              "net_loss":  -2937522086.8532887,
-                                                              "recovery_assigned":  5743467000.2612829,
-                                                              "compensation":  24285
+                                                              "recovery_actual":  2051811917.3453343,
+                                                              "recovery_rate":  51.17,
+                                                              "net_loss":  3104778307.4546661,
+                                                              "recovery_assigned":  4010041442.6825247,
+                                                              "compensation":  5156590224.8
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
@@ -4499,34 +4499,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  176408492.02449349,
+                                                              "recovery_remaining":  399695957.023016,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  142715602.76469859,
-                                                                                      "assigned":  286365629.7529397,
+                                                                                      "remaining":  383353737.89487416,
+                                                                                      "assigned":  769217467.77335179,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  146575715.19990095,
+                                                                                      "recovered":  393722530.80933291,
                                                                                       "rate":  51.18,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  778
+                                                                                      "compensation":  549202587
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  32495758.114372466,
-                                                                                      "assigned":  95104374.2945344,
+                                                                                      "remaining":  15730707.498454506,
+                                                                                      "assigned":  46038596.440351032,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  63960796.421052627,
+                                                                                      "recovered":  30962459.048547871,
                                                                                       "rate":  67.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  153
+                                                                                      "compensation":  77093152
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1197131.1454224314,
-                                                                                      "assigned":  2304521.8210185459,
+                                                                                      "remaining":  611511.62968728808,
+                                                                                      "assigned":  1177182.5499734106,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1133782.9165440095,
+                                                                                      "recovered":  579152.45264359191,
                                                                                       "rate":  49.2,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  21
+                                                                                      "compensation":  3445123
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4544,7 +4544,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  17567
+                                                                                      "compensation":  2161690074
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4556,37 +4556,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  211670294.53749761,
-                                                              "recovery_rate":  55.15,
-                                                              "net_loss":  -211651775.53749761,
-                                                              "recovery_assigned":  383774525.8684926,
-                                                              "compensation":  18519
+                                                              "recovery_actual":  425264142.31052434,
+                                                              "recovery_rate":  52.09,
+                                                              "net_loss":  2366166793.6894755,
+                                                              "recovery_assigned":  816433246.76367617,
+                                                              "compensation":  2791430936
                                                           }
                                                       ],
                                 "month":  "2025-11",
                                 "reasons":  [
                                                 {
-                                                    "amount":  16158,
+                                                    "amount":  4246316243.3999996,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  9596,
+                                                    "amount":  849559827.3084,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  20382,
+                                                    "amount":  6545898147.8,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  988,
+                                                    "amount":  1028394472.8000001,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  17567,
+                                                    "amount":  2161690074,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  64691,
+                                "compensation":  14831858765.308401,
                                 "recovery_remaining":  4335751799,
                                 "recovery_assigned":  8798265053,
                                 "recovery_count":  25229,
@@ -4599,7 +4599,7 @@
                                                         "rate":  51.18,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3044177900,
-                                                        "compensation":  16158
+                                                        "compensation":  4246316243.4000006
                                                     },
                                                     {
                                                         "remaining":  209841889,
@@ -4609,7 +4609,7 @@
                                                         "rate":  67.25,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  413027888,
-                                                        "compensation":  988
+                                                        "compensation":  1028394472.8
                                                     },
                                                     {
                                                         "remaining":  1161901286,
@@ -4619,7 +4619,7 @@
                                                         "rate":  49.2,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1100417305,
-                                                        "compensation":  20382
+                                                        "compensation":  6545898147.7999992
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -4629,7 +4629,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  9596
+                                                        "compensation":  849559827.3084
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -4639,7 +4639,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  17567
+                                                        "compensation":  2161690074
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -4655,40 +4655,40 @@
                                 "recovery_actual":  4557623093
                             },
                             {
-                                "net_loss":  -4435614437,
+                                "net_loss":  14496182107.348404,
                                 "recovery_rate":  49.66,
                                 "compensation_count":  9457,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  2105388536.5270455,
+                                                              "recovery_remaining":  1965156905.2613766,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1557748188.8127596,
-                                                                                      "assigned":  3174411740.4245758,
+                                                                                      "remaining":  1294971987.7752287,
+                                                                                      "assigned":  2638920918.6933284,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  1626928269.684376,
+                                                                                      "recovered":  1352482095.9455655,
                                                                                       "rate":  51.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  5000
+                                                                                      "compensation":  2031689504.4
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  75667615.166389346,
-                                                                                      "assigned":  231710794.85024959,
+                                                                                      "remaining":  75583958.632619336,
+                                                                                      "assigned":  231454620.23853967,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  156270117.93677205,
+                                                                                      "recovered":  156097348.96064305,
                                                                                       "rate":  67.44,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  910
+                                                                                      "compensation":  1071613906.4
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  471972732.54789662,
-                                                                                      "assigned":  846063742.92649615,
+                                                                                      "remaining":  594600958.8535285,
+                                                                                      "assigned":  1065888510.2949191,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  379162831.83791792,
+                                                                                      "recovered":  477677136.4637385,
                                                                                       "rate":  44.81,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  8834
+                                                                                      "compensation":  3250120686.3999996
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4697,7 +4697,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  160191
+                                                                                      "compensation":  1026557056.1484001
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4718,42 +4718,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  2162361219.4590659,
-                                                              "recovery_rate":  50.85,
-                                                              "net_loss":  -2162186284.4590659,
-                                                              "recovery_assigned":  4252186278.2013216,
-                                                              "compensation":  174935
+                                                              "recovery_actual":  1986256581.369947,
+                                                              "recovery_rate":  50.46,
+                                                              "net_loss":  5393724571.9784527,
+                                                              "recovery_assigned":  3936264049.2267871,
+                                                              "compensation":  7379981153.3484
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
-                                                              "recovery_remaining":  74408589.173292786,
+                                                              "recovery_remaining":  229551970.16548574,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  37385956.531506233,
-                                                                                      "assigned":  76185881.770189822,
+                                                                                      "remaining":  105986521.83542259,
+                                                                                      "assigned":  215981544.16571856,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  39046278.472425029,
+                                                                                      "recovered":  110693416.18749632,
                                                                                       "rate":  51.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  120
+                                                                                      "compensation":  166282905
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  7317307.8402662231,
-                                                                                      "assigned":  22407197.7437604,
+                                                                                      "remaining":  12381075.982938973,
+                                                                                      "assigned":  37913563.825154416,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  15111835.580698837,
+                                                                                      "recovered":  25569620.501234204,
                                                                                       "rate":  67.44,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  88
+                                                                                      "compensation":  175536363
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  29705324.801520325,
-                                                                                      "assigned":  53250106.527861886,
+                                                                                      "remaining":  111184372.34712417,
+                                                                                      "assigned":  199310383.2823537,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  23863995.302454423,
+                                                                                      "recovered":  89320798.78360118,
                                                                                       "rate":  44.81,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  556
+                                                                                      "compensation":  607739734
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4783,42 +4783,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  78022109.355578288,
-                                                              "recovery_rate":  51.38,
-                                                              "net_loss":  -78021345.355578288,
-                                                              "recovery_assigned":  151843186.04181212,
-                                                              "compensation":  764
+                                                              "recovery_actual":  225583835.4723317,
+                                                              "recovery_rate":  49.78,
+                                                              "net_loss":  723975166.52766824,
+                                                              "recovery_assigned":  453205491.27322668,
+                                                              "compensation":  949559002
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
-                                                              "recovery_remaining":  2005283332.5857787,
+                                                              "recovery_remaining":  1682636723.5150402,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  836510777.392452,
-                                                                                      "assigned":  1704659104.6079974,
+                                                                                      "remaining":  724172017.75785339,
+                                                                                      "assigned":  1475732837.8019388,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  873660480.82051,
+                                                                                      "recovered":  756332721.98029411,
                                                                                       "rate":  51.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  2685
+                                                                                      "compensation":  1136157926
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  13470498.524126455,
-                                                                                      "assigned":  41249614.028286189,
+                                                                                      "remaining":  9464772.1694250423,
+                                                                                      "assigned":  28983203.417095959,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  27819515.500831947,
+                                                                                      "recovered":  19546817.484710559,
                                                                                       "rate":  67.44,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  162
+                                                                                      "compensation":  134189604
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1155302056.6692004,
-                                                                                      "assigned":  2071007740.2131031,
+                                                                                      "remaining":  948999933.58776176,
+                                                                                      "assigned":  1701188184.1431947,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  928120565.50409067,
+                                                                                      "recovered":  762386208.81899369,
                                                                                       "rate":  44.81,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  21624
+                                                                                      "compensation":  5187284463
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4848,42 +4848,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  1829600561.8254328,
-                                                              "recovery_rate":  47.93,
-                                                              "net_loss":  -1829576090.8254328,
-                                                              "recovery_assigned":  3816916458.8493867,
-                                                              "compensation":  24471
+                                                              "recovery_actual":  1538265748.2839985,
+                                                              "recovery_rate":  47.98,
+                                                              "net_loss":  4919366244.7160015,
+                                                              "recovery_assigned":  3205904225.3622293,
+                                                              "compensation":  6457631993
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
-                                                              "recovery_remaining":  3320876.9351017121,
+                                                              "recovery_remaining":  5197850.90216227,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  2180847.4643378635,
-                                                                                      "assigned":  4444176.4365944061,
+                                                                                      "remaining":  1860850.6418535102,
+                                                                                      "assigned":  3792080.2393476064,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2277699.5775581263,
+                                                                                      "recovered":  1943491.5968024225,
                                                                                       "rate":  51.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  7
+                                                                                      "compensation":  2919500
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  498907.35274542426,
-                                                                                      "assigned":  1527763.4825291182,
+                                                                                      "remaining":  132677.46765113817,
+                                                                                      "assigned":  406287.43777059182,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  1030352.4259567388,
+                                                                                      "recovered":  274007.88926416705,
                                                                                       "rate":  67.44,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  6
+                                                                                      "compensation":  1881074
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  641122.11801842425,
-                                                                                      "assigned":  1149282.874702055,
+                                                                                      "remaining":  3204322.7926576212,
+                                                                                      "assigned":  5744105.8530335044,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  515050.25832635444,
+                                                                                      "recovered":  2574216.7299115164,
                                                                                       "rate":  44.81,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  12
+                                                                                      "compensation":  17515000
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4913,42 +4913,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  3823102.2618412194,
-                                                              "recovery_rate":  53.69,
-                                                              "net_loss":  -3823077.2618412194,
-                                                              "recovery_assigned":  7121222.79382558,
-                                                              "compensation":  25
+                                                              "recovery_actual":  4791716.2159781065,
+                                                              "recovery_rate":  48.19,
+                                                              "net_loss":  17523857.784021892,
+                                                              "recovery_assigned":  9942473.5301517025,
+                                                              "compensation":  22315574
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  343962635.77878076,
+                                                              "recovery_remaining":  649820521.15593565,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  339900654.79894418,
-                                                                                      "assigned":  692656641.76064253,
+                                                                                      "remaining":  646735046.98964226,
+                                                                                      "assigned":  1317930164.0996673,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  354995748.44513088,
+                                                                                      "recovered":  675456751.28984213,
                                                                                       "rate":  51.25,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  1091
+                                                                                      "compensation":  1014666587
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  2993444.116472546,
-                                                                                      "assigned":  9166580.89517471,
+                                                                                      "remaining":  2385288.7473654896,
+                                                                                      "assigned":  7304276.0814393321,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  6182114.5557404328,
+                                                                                      "recovered":  4926141.1641480029,
                                                                                       "rate":  67.44,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  36
+                                                                                      "compensation":  33818136
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1068536.8633640404,
-                                                                                      "assigned":  1915471.4578367583,
+                                                                                      "remaining":  700185.41892787174,
+                                                                                      "assigned":  1255160.4264989055,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  858417.09721059073,
+                                                                                      "recovered":  562499.20375510026,
                                                                                       "rate":  44.81,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  20
+                                                                                      "compensation":  3827251
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4966,7 +4966,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  27494
+                                                                                      "compensation":  3070225684
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -4978,37 +4978,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  362036280.09808189,
-                                                              "recovery_rate":  51.44,
-                                                              "net_loss":  -362007639.09808189,
-                                                              "recovery_assigned":  703738694.113654,
-                                                              "compensation":  28641
+                                                              "recovery_actual":  680945391.65774524,
+                                                              "recovery_rate":  51.33,
+                                                              "net_loss":  3441592266.3422546,
+                                                              "recovery_assigned":  1326489600.6076055,
+                                                              "compensation":  4122537658
                                                           }
                                                       ],
                                 "month":  "2025-12",
                                 "reasons":  [
                                                 {
-                                                    "amount":  8903,
+                                                    "amount":  4351716422.4,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  160191,
+                                                    "amount":  1026557056.1484001,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  31046,
+                                                    "amount":  9066487134.4,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  1202,
+                                                    "amount":  1417039083.4,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  27494,
+                                                    "amount":  3070225684,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  228836,
+                                "compensation":  18932025380.348404,
                                 "recovery_remaining":  4532363971,
                                 "recovery_assigned":  8931805840,
                                 "recovery_count":  31602,
@@ -5021,7 +5021,7 @@
                                                         "rate":  51.25,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  2896908477,
-                                                        "compensation":  8903
+                                                        "compensation":  4351716422.4
                                                     },
                                                     {
                                                         "remaining":  99947773,
@@ -5031,7 +5031,7 @@
                                                         "rate":  67.44,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  206413936,
-                                                        "compensation":  1202
+                                                        "compensation":  1417039083.4
                                                     },
                                                     {
                                                         "remaining":  1658689773,
@@ -5041,7 +5041,7 @@
                                                         "rate":  44.81,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1332520860,
-                                                        "compensation":  31046
+                                                        "compensation":  9066487134.4
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -5051,7 +5051,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  160191
+                                                        "compensation":  1026557056.1484001
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -5061,7 +5061,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  27494
+                                                        "compensation":  3070225684
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -5077,40 +5077,40 @@
                                 "recovery_actual":  4435843273
                             },
                             {
-                                "net_loss":  -4843575901,
+                                "net_loss":  3935810074.0999985,
                                 "recovery_rate":  46.06,
                                 "compensation_count":  8133,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  3569962961.47431,
+                                                              "recovery_remaining":  4308910593.08531,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1360698700.30848,
-                                                                                      "assigned":  2569364681.8722134,
+                                                                                      "remaining":  2094768182.6511416,
+                                                                                      "assigned":  3955485063.6612625,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  1208688705.3806934,
+                                                                                      "recovered":  1860751863.8676376,
                                                                                       "rate":  47.04,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  3692
+                                                                                      "compensation":  1440084055.8
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  61965018.734662578,
-                                                                                      "assigned":  109037517.41871165,
+                                                                                      "remaining":  64372722.547648422,
+                                                                                      "assigned":  113274263.43781172,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  47079166.22546012,
+                                                                                      "recovered":  48908467.504599839,
                                                                                       "rate":  43.18,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  619
+                                                                                      "compensation":  950150310.5
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  2147299242.4311676,
-                                                                                      "assigned":  3868795449.7041216,
+                                                                                      "remaining":  2149769687.8865204,
+                                                                                      "assigned":  3873246458.6494746,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1721559484.7873857,
+                                                                                      "recovered":  1723540121.0775084,
                                                                                       "rate":  44.5,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  8403
+                                                                                      "compensation":  3100061868.8
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5119,7 +5119,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  2127
+                                                                                      "compensation":  9959429
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5140,11 +5140,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  2977327356.3935394,
-                                                              "recovery_rate":  45.47,
-                                                              "net_loss":  -2977312515.3935394,
-                                                              "recovery_assigned":  6547197648.9950466,
-                                                              "compensation":  14841
+                                                              "recovery_actual":  3633200452.4497461,
+                                                              "recovery_rate":  45.75,
+                                                              "net_loss":  1867055211.6502542,
+                                                              "recovery_assigned":  7942005785.7485485,
+                                                              "compensation":  5500255664.1
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
@@ -5343,34 +5343,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  2101880375.5256898,
+                                                              "recovery_remaining":  1362932743.9146891,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  2094488275.69152,
-                                                                                      "assigned":  3954956524.1277866,
+                                                                                      "remaining":  1360418793.3488579,
+                                                                                      "assigned":  2568836142.338737,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  1860503226.6193066,
+                                                                                      "recovered":  1208440068.1323621,
                                                                                       "rate":  47.04,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  5683
+                                                                                      "compensation":  935243064
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  3303466.2653374234,
-                                                                                      "assigned":  5812985.5812883433,
+                                                                                      "remaining":  895762.452351577,
+                                                                                      "assigned":  1576239.5621882775,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  2509874.7745398772,
+                                                                                      "recovered":  680573.49540015985,
                                                                                       "rate":  43.18,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  33
+                                                                                      "compensation":  13221578
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  4088633.5688324026,
-                                                                                      "assigned":  7366503.29587837,
+                                                                                      "remaining":  1618188.1134796978,
+                                                                                      "assigned":  2915494.3505254057,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  3277990.2126143244,
+                                                                                      "recovered":  1297353.9224915367,
                                                                                       "rate":  44.5,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  16
+                                                                                      "compensation":  2333498
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5388,7 +5388,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  21974
+                                                                                      "compensation":  2328374718
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5400,37 +5400,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  1866291091.6064608,
-                                                              "recovery_rate":  47.03,
-                                                              "net_loss":  -1866263385.6064608,
-                                                              "recovery_assigned":  3968136013.0049534,
-                                                              "compensation":  27706
+                                                              "recovery_actual":  1210417995.5502539,
+                                                              "recovery_rate":  47.04,
+                                                              "net_loss":  2068754862.4497461,
+                                                              "recovery_assigned":  2573327876.2514505,
+                                                              "compensation":  3279172858
                                                           }
                                                       ],
                                 "month":  "2026-01",
                                 "reasons":  [
                                                 {
-                                                    "amount":  9375,
+                                                    "amount":  2375327119.8,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  2127,
+                                                    "amount":  9959429,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  8419,
+                                                    "amount":  3102395366.8,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  652,
+                                                    "amount":  963371888.5,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  21974,
+                                                    "amount":  2328374718,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  42547,
+                                "compensation":  8779428522.0999985,
                                 "recovery_remaining":  5671843337,
                                 "recovery_assigned":  10515333662,
                                 "recovery_count":  30182,
@@ -5443,7 +5443,7 @@
                                                         "rate":  47.04,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3069191932,
-                                                        "compensation":  9375
+                                                        "compensation":  2375327119.8
                                                     },
                                                     {
                                                         "remaining":  65268485,
@@ -5453,7 +5453,7 @@
                                                         "rate":  43.18,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  49589041,
-                                                        "compensation":  652
+                                                        "compensation":  963371888.5
                                                     },
                                                     {
                                                         "remaining":  2151387876,
@@ -5463,7 +5463,7 @@
                                                         "rate":  44.5,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1724837475,
-                                                        "compensation":  8419
+                                                        "compensation":  3102395366.8
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -5473,7 +5473,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  2127
+                                                        "compensation":  9959429
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -5483,7 +5483,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  21974
+                                                        "compensation":  2328374718
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -5499,40 +5499,40 @@
                                 "recovery_actual":  4843618448
                             },
                             {
-                                "net_loss":  -4857761566,
+                                "net_loss":  8016698438.9999981,
                                 "recovery_rate":  39.5,
                                 "compensation_count":  7361,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  4239738216.628767,
+                                                              "recovery_remaining":  4842428592.6864223,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  2268132866.88042,
-                                                                                      "assigned":  4250530854.7948866,
+                                                                                      "remaining":  2393685599.9443827,
+                                                                                      "assigned":  4485819436.6874456,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  1982397987.9144664,
+                                                                                      "recovered":  2092133836.7430627,
                                                                                       "rate":  46.64,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  4784
+                                                                                      "compensation":  1938349270.4
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  50697776.94150418,
-                                                                                      "assigned":  114916118.86629526,
+                                                                                      "remaining":  53080817.981023841,
+                                                                                      "assigned":  120317732.97802788,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  64218341.924791083,
+                                                                                      "recovered":  67236914.997004032,
                                                                                       "rate":  55.88,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  586
+                                                                                      "compensation":  844736397
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1920907572.806843,
-                                                                                      "assigned":  2659393234.9233308,
+                                                                                      "remaining":  2395662174.7610164,
+                                                                                      "assigned":  3316665450.7024522,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  738485662.11648762,
+                                                                                      "recovered":  921003275.94143558,
                                                                                       "rate":  27.77,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  8549
+                                                                                      "compensation":  4723271561.6
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5562,11 +5562,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  2785101991.9557452,
-                                                              "recovery_rate":  39.65,
-                                                              "net_loss":  -2785088072.9557452,
-                                                              "recovery_assigned":  7024840208.5845127,
-                                                              "compensation":  13919
+                                                              "recovery_actual":  3080374027.6815023,
+                                                              "recovery_rate":  38.88,
+                                                              "net_loss":  4425983201.3184977,
+                                                              "recovery_assigned":  7922802620.3679256,
+                                                              "compensation":  7506357229
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
@@ -5635,34 +5635,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
-                                                              "recovery_remaining":  2823245273.437191,
+                                                              "recovery_remaining":  2030838085.7559857,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1328450730.1419184,
-                                                                                      "assigned":  2489545872.7289453,
+                                                                                      "remaining":  1011726595.0979171,
+                                                                                      "assigned":  1895997880.8450434,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  1161095142.5870266,
+                                                                                      "recovered":  884271285.74712634,
                                                                                       "rate":  46.64,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  2802
+                                                                                      "compensation":  819271966
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  9343617.5933147632,
-                                                                                      "assigned":  21179079.9275766,
+                                                                                      "remaining":  6955481.1292660311,
+                                                                                      "assigned":  15765916.070545837,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  11835462.334261838,
+                                                                                      "recovered":  8810434.9412798062,
                                                                                       "rate":  55.88,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  108
+                                                                                      "compensation":  110690609
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1485450925.7019579,
-                                                                                      "assigned":  2056526924.3277738,
+                                                                                      "remaining":  1012156009.5288025,
+                                                                                      "assigned":  1401275565.0157239,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  571075998.62581587,
+                                                                                      "recovered":  389119555.48692131,
                                                                                       "rate":  27.77,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  6611
+                                                                                      "compensation":  1995560036
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5692,24 +5692,24 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  1744006603.5471044,
-                                                              "recovery_rate":  38.19,
-                                                              "net_loss":  -1743997082.5471044,
-                                                              "recovery_assigned":  4567251876.9842958,
-                                                              "compensation":  9521
+                                                              "recovery_actual":  1282201276.1753273,
+                                                              "recovery_rate":  38.7,
+                                                              "net_loss":  1643321334.8246727,
+                                                              "recovery_assigned":  3313039361.9313135,
+                                                              "compensation":  2925522611
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
-                                                              "recovery_remaining":  6163404.5295663606,
+                                                              "recovery_remaining":  16236217.405697102,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  6163404.5295663606,
-                                                                                      "assigned":  11550355.583681758,
+                                                                                      "remaining":  16236217.405697102,
+                                                                                      "assigned":  30427028.35261713,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  5386951.0541153988,
+                                                                                      "recovered":  14190810.946920028,
                                                                                       "rate":  46.64,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  13
+                                                                                      "compensation":  13147700
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5757,42 +5757,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  5386951.0541153988,
+                                                              "recovery_actual":  14190810.946920028,
                                                               "recovery_rate":  46.64,
-                                                              "net_loss":  -5386938.0541153988,
-                                                              "recovery_assigned":  11550355.583681758,
-                                                              "compensation":  13
+                                                              "net_loss":  -1043110.946920028,
+                                                              "recovery_assigned":  30427028.35261713,
+                                                              "compensation":  13147700
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  370110011.40447479,
+                                                              "recovery_remaining":  549754010.15189457,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  366011407.44809461,
-                                                                                      "assigned":  685913423.892486,
+                                                                                      "remaining":  547109996.5520035,
+                                                                                      "assigned":  1025296161.1148946,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  319902016.44439137,
+                                                                                      "recovered":  478186164.56289107,
                                                                                       "rate":  46.64,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  772
+                                                                                      "compensation":  443036572
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  2076359.4651810585,
-                                                                                      "assigned":  4706462.2061281344,
+                                                                                      "remaining":  2081454.8897101309,
+                                                                                      "assigned":  4718011.95142629,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  2630102.7409470752,
+                                                                                      "recovered":  2636557.0617161589,
                                                                                       "rate":  55.88,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  24
+                                                                                      "compensation":  33124597
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  2022244.4911991563,
-                                                                                      "assigned":  2799688.7488957741,
+                                                                                      "remaining":  562558.71018091857,
+                                                                                      "assigned":  778832.28182409087,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  777444.25769661809,
+                                                                                      "recovered":  216273.5716431723,
                                                                                       "rate":  27.77,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  9
+                                                                                      "compensation":  1109137
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5810,7 +5810,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  19286
+                                                                                      "compensation":  1952205703
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5822,33 +5822,33 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  323309563.44303507,
-                                                              "recovery_rate":  46.63,
-                                                              "net_loss":  -323289472.44303507,
-                                                              "recovery_assigned":  693419574.84750986,
-                                                              "compensation":  20091
+                                                              "recovery_actual":  481038995.19625038,
+                                                              "recovery_rate":  46.67,
+                                                              "net_loss":  1948437013.8037496,
+                                                              "recovery_assigned":  1030793005.348145,
+                                                              "compensation":  2429476009
                                                           }
                                                       ],
                                 "month":  "2026-02",
                                 "reasons":  [
                                                 {
-                                                    "amount":  19286,
+                                                    "amount":  1952205703,
                                                     "reason":  "Đền bù xu"
                                                 },
                                                 {
-                                                    "amount":  718,
+                                                    "amount":  988551603,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  8371,
+                                                    "amount":  3213805508.4,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  15169,
+                                                    "amount":  6719940734.6,
                                                     "reason":  "Quá hạn"
                                                 }
                                             ],
-                                "compensation":  43544,
+                                "compensation":  12874503548.999998,
                                 "recovery_remaining":  7439256906,
                                 "recovery_assigned":  12297062016,
                                 "recovery_count":  23877,
@@ -5861,7 +5861,7 @@
                                                         "rate":  46.64,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3468782098,
-                                                        "compensation":  8371
+                                                        "compensation":  3213805508.4
                                                     },
                                                     {
                                                         "remaining":  62117754,
@@ -5871,7 +5871,7 @@
                                                         "rate":  55.88,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  78683907,
-                                                        "compensation":  718
+                                                        "compensation":  988551603
                                                     },
                                                     {
                                                         "remaining":  3408380743,
@@ -5881,7 +5881,7 @@
                                                         "rate":  27.77,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1310339105,
-                                                        "compensation":  15169
+                                                        "compensation":  6719940734.6
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -5901,7 +5901,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  19286
+                                                        "compensation":  1952205703
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -5917,40 +5917,40 @@
                                 "recovery_actual":  4857805110
                             },
                             {
-                                "net_loss":  -6436144731,
+                                "net_loss":  18180768131.158562,
                                 "recovery_rate":  28.74,
                                 "compensation_count":  11106,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  7782040451.9544888,
+                                                              "recovery_remaining":  8292775415.0426731,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  3685593403.7496672,
-                                                                                      "assigned":  5388587032.4201508,
+                                                                                      "remaining":  3298534401.3295341,
+                                                                                      "assigned":  4822680571.0344076,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  1702993628.6704829,
+                                                                                      "recovered":  1524146169.7048733,
                                                                                       "rate":  31.6,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  5059
+                                                                                      "compensation":  2483033646
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  10784407.04974271,
-                                                                                      "assigned":  23161946.549456831,
+                                                                                      "remaining":  20004513.212335914,
+                                                                                      "assigned":  42964204.117562652,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  12377539.499714121,
+                                                                                      "recovered":  22959690.905226737,
                                                                                       "rate":  53.44,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  755
+                                                                                      "compensation":  940768649
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  4085662641.1550784,
-                                                                                      "assigned":  5330563396.2342606,
+                                                                                      "remaining":  4974236500.500803,
+                                                                                      "assigned":  6489885568.7912741,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1244900755.0791819,
+                                                                                      "recovered":  1515649068.2904706,
                                                                                       "rate":  23.35,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  16381
+                                                                                      "compensation":  9603182656.4
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5959,7 +5959,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  149776
+                                                                                      "compensation":  786679880.75856006
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -5980,42 +5980,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  2960271923.2493792,
-                                                              "recovery_rate":  27.56,
-                                                              "net_loss":  -2960099952.2493792,
-                                                              "recovery_assigned":  10742312375.203869,
-                                                              "compensation":  171971
+                                                              "recovery_actual":  3062754928.9005709,
+                                                              "recovery_rate":  26.97,
+                                                              "net_loss":  10750909903.257988,
+                                                              "recovery_assigned":  11355530343.943245,
+                                                              "compensation":  13813664832.15856
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
-                                                              "recovery_remaining":  131410631.86413138,
+                                                              "recovery_remaining":  406363375.747182,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  99079008.284236968,
-                                                                                      "assigned":  144860216.72447926,
+                                                                                      "remaining":  304640830.83308095,
+                                                                                      "assigned":  445405515.676992,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  45781208.440242283,
+                                                                                      "recovered":  140764684.84391105,
                                                                                       "rate":  31.6,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  136
+                                                                                      "compensation":  229324100
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  157123.81132075473,
-                                                                                      "assigned":  337458.82389937108,
+                                                                                      "remaining":  334785.87692957837,
+                                                                                      "assigned":  719028.18126110383,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  180335.01257861636,
+                                                                                      "recovered":  384242.30433152552,
                                                                                       "rate":  53.44,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  11
+                                                                                      "compensation":  15744250
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  32174499.768573657,
-                                                                                      "assigned":  41978064.7160869,
+                                                                                      "remaining":  101387759.03717147,
+                                                                                      "assigned":  132280593.04401381,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  9803564.947513245,
+                                                                                      "recovered":  30892834.006842345,
                                                                                       "rate":  23.35,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  129
+                                                                                      "compensation":  195737611
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6045,42 +6045,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  55765108.400334142,
-                                                              "recovery_rate":  29.79,
-                                                              "net_loss":  -55764832.400334142,
-                                                              "recovery_assigned":  187175740.26446551,
-                                                              "compensation":  276
+                                                              "recovery_actual":  172041761.15508491,
+                                                              "recovery_rate":  29.74,
+                                                              "net_loss":  268764199.84491509,
+                                                              "recovery_assigned":  578405136.902267,
+                                                              "compensation":  440805961
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
-                                                              "recovery_remaining":  3857324475.8027711,
+                                                              "recovery_remaining":  1933399765.8369207,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1897800121.91498,
-                                                                                      "assigned":  2774712239.465209,
+                                                                                      "remaining":  934017862.33248079,
+                                                                                      "assigned":  1365597337.9735973,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  876912117.550229,
+                                                                                      "recovered":  431579475.64111644,
                                                                                       "rate":  31.6,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  2605
+                                                                                      "compensation":  703099466.6
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  13341239.97941681,
-                                                                                      "assigned":  28653321.956546597,
+                                                                                      "remaining":  3654144.6945692678,
+                                                                                      "assigned":  7848099.91956061,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  15312081.977129787,
+                                                                                      "recovered":  4193955.2249913425,
                                                                                       "rate":  53.44,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  934
+                                                                                      "compensation":  171846459.4
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1946183113.9083743,
-                                                                                      "assigned":  2539184798.2916756,
+                                                                                      "remaining":  995727758.80987072,
+                                                                                      "assigned":  1299125848.0963764,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  593001684.38330126,
+                                                                                      "recovered":  303398089.28650582,
                                                                                       "rate":  23.35,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  7803
+                                                                                      "compensation":  1922336331
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6110,11 +6110,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  1485225883.91066,
-                                                              "recovery_rate":  27.8,
-                                                              "net_loss":  -1485214541.91066,
-                                                              "recovery_assigned":  5342550359.7134314,
-                                                              "compensation":  11342
+                                                              "recovery_actual":  739171520.15261364,
+                                                              "recovery_rate":  27.66,
+                                                              "net_loss":  2058110736.8473864,
+                                                              "recovery_assigned":  2672571285.9895344,
+                                                              "compensation":  2797282257
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
@@ -6183,34 +6183,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  4189938768.3786087,
+                                                              "recovery_remaining":  5328175771.3732243,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  4180259923.051115,
-                                                                                      "assigned":  6111822967.3901606,
+                                                                                      "remaining":  5325539362.5049038,
+                                                                                      "assigned":  7786299031.3150024,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  1931563044.3390455,
+                                                                                      "recovered":  2460759668.8100986,
                                                                                       "rate":  31.6,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  5738
+                                                                                      "compensation":  4008899654
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  699915.15951972548,
-                                                                                      "assigned":  1503225.6700971983,
+                                                                                      "remaining":  989242.21616523725,
+                                                                                      "assigned":  2124620.7816156284,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  803310.51057747286,
+                                                                                      "recovered":  1135378.5654503908,
                                                                                       "rate":  53.44,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  49
+                                                                                      "compensation":  46521905
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  8978930.1679740436,
-                                                                                      "assigned":  11714808.757977741,
+                                                                                      "remaining":  1647166.6521548131,
+                                                                                      "assigned":  2149058.0683362163,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  2735878.5900036963,
+                                                                                      "recovered":  501891.41618140333,
                                                                                       "rate":  23.35,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  36
+                                                                                      "compensation":  3179994
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6228,7 +6228,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  31006
+                                                                                      "compensation":  3506778677
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6240,37 +6240,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  1935102233.4396267,
-                                                              "recovery_rate":  31.59,
-                                                              "net_loss":  -1935065404.4396267,
-                                                              "recovery_assigned":  6125041001.8182354,
-                                                              "compensation":  36829
+                                                              "recovery_actual":  2462396938.7917304,
+                                                              "recovery_rate":  31.61,
+                                                              "net_loss":  5102983291.2082691,
+                                                              "recovery_assigned":  7790572710.1649542,
+                                                              "compensation":  7565380230
                                                           }
                                                       ],
                                 "month":  "2026-03",
                                 "reasons":  [
                                                 {
-                                                    "amount":  13538,
+                                                    "amount":  7424356866.6,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  149776,
+                                                    "amount":  786679880.75856006,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  24349,
+                                                    "amount":  11724436592.4,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  1749,
+                                                    "amount":  1174881263.4,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  31006,
+                                                    "amount":  3506778677,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  220418,
+                                "compensation":  24617133280.158562,
                                 "recovery_remaining":  15960714328,
                                 "recovery_assigned":  22397079477,
                                 "recovery_count":  25832,
@@ -6283,7 +6283,7 @@
                                                         "rate":  31.6,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  4557249999,
-                                                        "compensation":  13538
+                                                        "compensation":  7424356866.6
                                                     },
                                                     {
                                                         "remaining":  24982686,
@@ -6293,7 +6293,7 @@
                                                         "rate":  53.44,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  28673267,
-                                                        "compensation":  1749
+                                                        "compensation":  1174881263.4
                                                     },
                                                     {
                                                         "remaining":  6072999185,
@@ -6303,7 +6303,7 @@
                                                         "rate":  23.35,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1850441883,
-                                                        "compensation":  24349
+                                                        "compensation":  11724436592.4
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -6313,7 +6313,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  149776
+                                                        "compensation":  786679880.75856006
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -6323,7 +6323,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  31006
+                                                        "compensation":  3506778677
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -6339,40 +6339,40 @@
                                 "recovery_actual":  6436365149
                             },
                             {
-                                "net_loss":  -5346506793,
+                                "net_loss":  18390177621.485039,
                                 "recovery_rate":  30.18,
                                 "compensation_count":  8768,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  7886469303.3257494,
+                                                              "recovery_remaining":  8406957299.6630077,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  5874625984.970109,
-                                                                                      "assigned":  8645812329.137228,
+                                                                                      "remaining":  6279025146.1998444,
+                                                                                      "assigned":  9240975197.8880272,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2771186344.1671195,
+                                                                                      "recovered":  2961950051.6881833,
                                                                                       "rate":  32.05,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  8334
+                                                                                      "compensation":  4162838549.2
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  15408470.091743121,
-                                                                                      "assigned":  24524369.724770643,
+                                                                                      "remaining":  16834273.64187919,
+                                                                                      "assigned":  26793701.670786828,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  9115899.6330275238,
+                                                                                      "recovered":  9959428.0289076343,
                                                                                       "rate":  37.17,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  960
+                                                                                      "compensation":  1015519781
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1996434848.2638967,
-                                                                                      "assigned":  2610898617.3306255,
+                                                                                      "remaining":  2111097879.8212845,
+                                                                                      "assigned":  2760852697.1306534,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  614463769.06672847,
+                                                                                      "recovered":  649754817.309369,
                                                                                       "rate":  23.53,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  11444
+                                                                                      "compensation":  5763896982
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6381,7 +6381,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  510125
+                                                                                      "compensation":  4083876377.2130404
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6402,42 +6402,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  3394766012.8668756,
-                                                              "recovery_rate":  30.09,
-                                                              "net_loss":  -3394235149.8668756,
-                                                              "recovery_assigned":  11281235316.192625,
-                                                              "compensation":  530863
+                                                              "recovery_actual":  3621664297.02646,
+                                                              "recovery_rate":  30.11,
+                                                              "net_loss":  11404467392.38658,
+                                                              "recovery_assigned":  12028621596.689466,
+                                                              "compensation":  15026131689.41304
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
-                                                              "recovery_remaining":  158153831.78294712,
+                                                              "recovery_remaining":  528879210.53856391,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  53572303.1986715,
-                                                                                      "assigned":  78843500.961654589,
+                                                                                      "remaining":  160343879.7595652,
+                                                                                      "assigned":  235981506.92039332,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  25271197.762983095,
+                                                                                      "recovered":  75637627.160828114,
                                                                                       "rate":  32.05,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  76
+                                                                                      "compensation":  106304031
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  433363.22133027524,
-                                                                                      "assigned":  689747.89850917435,
+                                                                                      "remaining":  475013.99798735016,
+                                                                                      "assigned":  756039.94697213732,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  256384.67717889909,
+                                                                                      "recovered":  281025.94898478722,
                                                                                       "rate":  37.17,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  27
+                                                                                      "compensation":  28655000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  104148165.36294533,
-                                                                                      "assigned":  136202942.55036557,
+                                                                                      "remaining":  368060316.78101134,
+                                                                                      "assigned":  481342114.92725348,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  32054777.187420215,
+                                                                                      "recovered":  113281798.14624214,
                                                                                       "rate":  23.53,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  597
+                                                                                      "compensation":  1004909232
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6467,42 +6467,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  57582359.627582207,
-                                                              "recovery_rate":  26.69,
-                                                              "net_loss":  -57581659.627582207,
-                                                              "recovery_assigned":  215736191.41052932,
-                                                              "compensation":  700
+                                                              "recovery_actual":  189200451.25605506,
+                                                              "recovery_rate":  26.35,
+                                                              "net_loss":  950667811.74394488,
+                                                              "recovery_assigned":  718079661.794619,
+                                                              "compensation":  1139868263
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
-                                                              "recovery_remaining":  3269334859.8716044,
+                                                              "recovery_remaining":  1916057972.4677086,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  2356476442.0152473,
-                                                                                      "assigned":  3468076627.8264642,
+                                                                                      "remaining":  1395411889.4850054,
+                                                                                      "assigned":  2053657432.6945038,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  1111600185.8112168,
+                                                                                      "recovered":  658245543.20949852,
                                                                                       "rate":  32.05,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  3343
+                                                                                      "compensation":  925123609.20800006
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  11636605.017201835,
-                                                                                      "assigned":  18521008.385894496,
+                                                                                      "remaining":  3015724.5744177424,
+                                                                                      "assigned":  4799875.9131011534,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  6884403.3686926607,
+                                                                                      "recovered":  1784151.3386834108,
                                                                                       "rate":  37.17,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  725
+                                                                                      "compensation":  181922191.864
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  901221812.83915508,
-                                                                                      "assigned":  1178600337.0438666,
+                                                                                      "remaining":  517630358.4082855,
+                                                                                      "assigned":  676946902.74105275,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  277378524.20471162,
+                                                                                      "recovered":  159316544.33276728,
                                                                                       "rate":  23.53,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  5166
+                                                                                      "compensation":  1413277939
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6532,42 +6532,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  1395863113.3846211,
-                                                              "recovery_rate":  29.92,
-                                                              "net_loss":  -1395853879.3846211,
-                                                              "recovery_assigned":  4665197973.2562256,
-                                                              "compensation":  9234
+                                                              "recovery_actual":  819346238.88094914,
+                                                              "recovery_rate":  29.95,
+                                                              "net_loss":  1700977501.191051,
+                                                              "recovery_assigned":  2735404211.3486576,
+                                                              "compensation":  2520323740.072
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
-                                                              "recovery_remaining":  3011971.276621934,
+                                                              "recovery_remaining":  14483853.089507405,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1409797.4525966183,
-                                                                                      "assigned":  2074828.9726751207,
+                                                                                      "remaining":  5701569.9196877731,
+                                                                                      "assigned":  8391122.0277158339,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  665031.52007850236,
+                                                                                      "recovered":  2689552.1080280603,
                                                                                       "rate":  32.05,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  2
+                                                                                      "compensation":  3780000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  32100.979357798165,
-                                                                                      "assigned":  51092.436926605507,
+                                                                                      "remaining":  5540.8629847241937,
+                                                                                      "assigned":  8818.9269682581362,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  18991.457568807342,
+                                                                                      "recovered":  3278.0639835339425,
                                                                                       "rate":  37.17,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  2
+                                                                                      "compensation":  334250
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1570072.8446675176,
-                                                                                      "assigned":  2053310.6917140535,
+                                                                                      "remaining":  8776742.3068349082,
+                                                                                      "assigned":  11478052.676504593,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  483237.84704653593,
+                                                                                      "recovered":  2701310.3696696861,
                                                                                       "rate":  23.53,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  9
+                                                                                      "compensation":  23963000
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6597,42 +6597,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  1167260.8246938456,
-                                                              "recovery_rate":  27.93,
-                                                              "net_loss":  -1167247.8246938456,
-                                                              "recovery_assigned":  4179232.1013157796,
-                                                              "compensation":  13
+                                                              "recovery_actual":  5394140.54168128,
+                                                              "recovery_rate":  27.14,
+                                                              "net_loss":  22683109.458318718,
+                                                              "recovery_assigned":  19877993.631188683,
+                                                              "compensation":  28077250
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  1056035458.7430776,
+                                                              "recovery_remaining":  1506627089.2412121,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1052413798.3633757,
-                                                                                      "assigned":  1548859828.1019776,
+                                                                                      "remaining":  1498015840.6358976,
+                                                                                      "assigned":  2204661855.4693594,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  496446029.73860204,
+                                                                                      "recovered":  706646014.83346176,
                                                                                       "rate":  32.05,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  1493
+                                                                                      "compensation":  993147494
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  481514.69036697253,
-                                                                                      "assigned":  766386.55389908259,
+                                                                                      "remaining":  7661500.92273099,
+                                                                                      "assigned":  12194168.542171622,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  284871.86353211012,
+                                                                                      "recovered":  4532667.6194406319,
                                                                                       "rate":  37.17,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  30
+                                                                                      "compensation":  462176504
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  3140145.6893350352,
-                                                                                      "assigned":  4106621.383428107,
+                                                                                      "remaining":  949747.68258355686,
+                                                                                      "assigned":  1242061.5245354592,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  966475.69409307186,
+                                                                                      "recovered":  292313.84195190255,
                                                                                       "rate":  23.53,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  18
+                                                                                      "compensation":  2593081
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6650,7 +6650,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  26980
+                                                                                      "compensation":  3564935724
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6662,37 +6662,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  497697377.29622722,
-                                                              "recovery_rate":  32.03,
-                                                              "net_loss":  -497668856.29622722,
-                                                              "recovery_assigned":  1553732836.0393047,
-                                                              "compensation":  28521
+                                                              "recovery_actual":  711470996.29485428,
+                                                              "recovery_rate":  32.08,
+                                                              "net_loss":  4311381806.7051458,
+                                                              "recovery_assigned":  2218098085.5360665,
+                                                              "compensation":  5022852803
                                                           }
                                                       ],
                                 "month":  "2026-04",
                                 "reasons":  [
                                                 {
-                                                    "amount":  13248,
+                                                    "amount":  6191193683.407999,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  510125,
+                                                    "amount":  4083876377.2130404,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  17234,
+                                                    "amount":  8208640234.000001,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  1744,
+                                                    "amount":  1688607726.8639998,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  26980,
+                                                    "amount":  3564935724,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  569331,
+                                "compensation":  23737253745.485039,
                                 "recovery_remaining":  12373005425,
                                 "recovery_assigned":  17720081549,
                                 "recovery_count":  24232,
@@ -6705,7 +6705,7 @@
                                                         "rate":  32.05,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  4405168789,
-                                                        "compensation":  13248
+                                                        "compensation":  6191193683.408
                                                     },
                                                     {
                                                         "remaining":  27992054,
@@ -6715,7 +6715,7 @@
                                                         "rate":  37.17,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  16560551,
-                                                        "compensation":  1744
+                                                        "compensation":  1688607726.864
                                                     },
                                                     {
                                                         "remaining":  3006515045,
@@ -6725,7 +6725,7 @@
                                                         "rate":  23.53,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  925346784,
-                                                        "compensation":  17234
+                                                        "compensation":  8208640234
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -6735,7 +6735,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  510125
+                                                        "compensation":  4083876377.2130404
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -6745,7 +6745,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  26980
+                                                        "compensation":  3564935724
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -6761,40 +6761,40 @@
                                 "recovery_actual":  5347076124
                             },
                             {
-                                "net_loss":  -5167963224,
+                                "net_loss":  17165920071.680847,
                                 "recovery_rate":  29.58,
                                 "compensation_count":  7042,
                                 "customer_segments":  [
                                                           {
                                                               "customer_type":  "Shopee",
-                                                              "recovery_remaining":  5483150521.5697594,
+                                                              "recovery_remaining":  5575599145.6561317,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  4343593397.4662313,
-                                                                                      "assigned":  6472906949.7413111,
+                                                                                      "remaining":  3766894575.5036049,
+                                                                                      "assigned":  5613499203.43452,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  2129313552.2750802,
+                                                                                      "recovered":  1846604627.9309154,
                                                                                       "rate":  32.9,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  4927
+                                                                                      "compensation":  2336106030.7999997
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  17716654.287145242,
-                                                                                      "assigned":  28703171.959933221,
+                                                                                      "remaining":  12030910.172681104,
+                                                                                      "assigned":  19491563.018844642,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  10986517.672787979,
+                                                                                      "recovered":  7460652.84616354,
                                                                                       "rate":  38.28,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  996
+                                                                                      "compensation":  1053714921
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1121840469.8163822,
-                                                                                      "assigned":  1482566371.253885,
+                                                                                      "remaining":  1796673659.9798455,
+                                                                                      "assigned":  2374391029.8045645,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  360725901.4375028,
+                                                                                      "recovered":  577717369.82471871,
                                                                                       "rate":  24.33,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  4886
+                                                                                      "compensation":  2433171032
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6803,7 +6803,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  365056
+                                                                                      "compensation":  6717930583.8808479
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6824,11 +6824,11 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  2501025971.3853707,
-                                                              "recovery_rate":  31.32,
-                                                              "net_loss":  -2500650106.3853707,
-                                                              "recovery_assigned":  7984176492.95513,
-                                                              "compensation":  375865
+                                                              "recovery_actual":  2431782650.6017976,
+                                                              "recovery_rate":  30.37,
+                                                              "net_loss":  10109139917.07905,
+                                                              "recovery_assigned":  8007381796.2579288,
+                                                              "compensation":  12540922567.680847
                                                           },
                                                           {
                                                               "customer_type":  "Lazada",
@@ -6897,34 +6897,34 @@
                                                           },
                                                           {
                                                               "customer_type":  "TikTok Shop",
-                                                              "recovery_remaining":  5841678230.0408936,
+                                                              "recovery_remaining":  4809411641.5254,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  1839878104.4270399,
-                                                                                      "assigned":  2741821961.4593296,
+                                                                                      "remaining":  1497548259.8090179,
+                                                                                      "assigned":  2231675401.3267789,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  901943857.03228986,
+                                                                                      "recovered":  734127141.517761,
                                                                                       "rate":  32.9,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  2087
+                                                                                      "compensation":  928730935
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1885507.3839732886,
-                                                                                      "assigned":  3054755.2487479132,
+                                                                                      "remaining":  555076.90399341611,
+                                                                                      "assigned":  899293.26203935489,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  1169247.8647746244,
+                                                                                      "recovered":  344216.35804593877,
                                                                                       "rate":  38.28,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  106
+                                                                                      "compensation":  48615841
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  3999914618.2298803,
-                                                                                      "assigned":  5286080383.465807,
+                                                                                      "remaining":  3311308304.8123889,
+                                                                                      "assigned":  4376053877.22559,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1286165765.2359264,
+                                                                                      "recovered":  1064745572.4132011,
                                                                                       "rate":  24.33,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  17421
+                                                                                      "compensation":  4484386689
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -6954,42 +6954,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  2189278870.1329908,
-                                                              "recovery_rate":  27.26,
-                                                              "net_loss":  -2189259256.1329908,
-                                                              "recovery_assigned":  8030957100.1738844,
-                                                              "compensation":  19614
+                                                              "recovery_actual":  1799216930.2890081,
+                                                              "recovery_rate":  27.23,
+                                                              "net_loss":  3662516534.7109919,
+                                                              "recovery_assigned":  6608628571.8144073,
+                                                              "compensation":  5461733465
                                                           },
                                                           {
                                                               "customer_type":  "Tiki",
-                                                              "recovery_remaining":  9403359.65583937,
+                                                              "recovery_remaining":  23031031.379151095,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  6171129.2434064578,
-                                                                                      "assigned":  9196336.2387231942,
+                                                                                      "remaining":  4556832.5795245366,
+                                                                                      "assigned":  6790680.1060195947,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  3025206.9953167364,
+                                                                                      "recovered":  2233847.5264950581,
                                                                                       "rate":  32.9,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  7
+                                                                                      "compensation":  2826000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  17787.80550918197,
-                                                                                      "assigned":  28818.445742904842,
+                                                                                      "remaining":  1438.6193566654626,
+                                                                                      "assigned":  2330.7413527405338,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  11030.640233722872,
+                                                                                      "recovered":  892.12199607507114,
                                                                                       "rate":  38.28,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  1
+                                                                                      "compensation":  126000
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  3214442.606923731,
-                                                                                      "assigned":  4248041.1783778938,
+                                                                                      "remaining":  18472760.180269893,
+                                                                                      "assigned":  24412644.90305702,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  1033598.5714541627,
+                                                                                      "recovered":  5939884.7227871278,
                                                                                       "rate":  24.33,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  14
+                                                                                      "compensation":  25017000
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -7019,42 +7019,42 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  4069836.2070046221,
-                                                              "recovery_rate":  30.21,
-                                                              "net_loss":  -4069814.2070046221,
-                                                              "recovery_assigned":  13473195.862843994,
-                                                              "compensation":  22
+                                                              "recovery_actual":  8174624.3712782608,
+                                                              "recovery_rate":  26.2,
+                                                              "net_loss":  19794375.62872174,
+                                                              "recovery_assigned":  31205655.750429355,
+                                                              "compensation":  27969000
                                                           },
                                                           {
                                                               "customer_type":  "Shop le / Khac",
-                                                              "recovery_remaining":  967104417.73350847,
+                                                              "recovery_remaining":  1893294710.4393172,
                                                               "error_types":  [
                                                                                   {
-                                                                                      "remaining":  963577751.86332262,
-                                                                                      "assigned":  1435942215.5606358,
+                                                                                      "remaining":  1884220715.1078532,
+                                                                                      "assigned":  2807902178.1326818,
                                                                                       "error_type":  "Mat hang",
-                                                                                      "recovered":  472364463.69731325,
+                                                                                      "recovered":  923681463.02482867,
                                                                                       "rate":  32.9,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  1093
+                                                                                      "compensation":  1168532670
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1689841.5233722872,
-                                                                                      "assigned":  2737752.34557596,
+                                                                                      "remaining":  8722365.3039688151,
+                                                                                      "assigned":  14131310.977763262,
                                                                                       "error_type":  "Hu hong",
-                                                                                      "recovered":  1047910.8222036728,
+                                                                                      "recovered":  5408945.6737944465,
                                                                                       "rate":  38.28,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  95
+                                                                                      "compensation":  763939414
                                                                                   },
                                                                                   {
-                                                                                      "remaining":  1836824.3468135609,
-                                                                                      "assigned":  2427452.1019302253,
+                                                                                      "remaining":  351630.02749508427,
+                                                                                      "assigned":  464696.06678801426,
                                                                                       "error_type":  "Qua han/Sai SOP",
-                                                                                      "recovered":  590627.75511666446,
+                                                                                      "recovered":  113066.03929293003,
                                                                                       "rate":  24.33,
                                                                                       "status":  "Hieu suat thap",
-                                                                                      "compensation":  8
+                                                                                      "compensation":  476200
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -7072,7 +7072,7 @@
                                                                                       "recovered":  0,
                                                                                       "rate":  0,
                                                                                       "status":  "Chua truy thu",
-                                                                                      "compensation":  17759
+                                                                                      "compensation":  2370724435
                                                                                   },
                                                                                   {
                                                                                       "remaining":  0,
@@ -7084,37 +7084,37 @@
                                                                                       "compensation":  0
                                                                                   }
                                                                               ],
-                                                              "recovery_actual":  474003002.27463359,
-                                                              "recovery_rate":  32.89,
-                                                              "net_loss":  -473984047.27463359,
-                                                              "recovery_assigned":  1441107420.008142,
-                                                              "compensation":  18955
+                                                              "recovery_actual":  929203474.737916,
+                                                              "recovery_rate":  32.92,
+                                                              "net_loss":  3374469244.262084,
+                                                              "recovery_assigned":  2822498185.1772332,
+                                                              "compensation":  4303672719
                                                           }
                                                       ],
                                 "month":  "2026-05",
                                 "reasons":  [
                                                 {
-                                                    "amount":  8114,
+                                                    "amount":  4436195635.8,
                                                     "reason":  "Mất hàng"
                                                 },
                                                 {
-                                                    "amount":  365056,
+                                                    "amount":  6717930583.8808479,
                                                     "reason":  "Miễn cước"
                                                 },
                                                 {
-                                                    "amount":  22329,
+                                                    "amount":  6943050921,
                                                     "reason":  "Quá hạn"
                                                 },
                                                 {
-                                                    "amount":  1198,
+                                                    "amount":  1866396176,
                                                     "reason":  "Hư hỏng"
                                                 },
                                                 {
-                                                    "amount":  17759,
+                                                    "amount":  2370724435,
                                                     "reason":  "Đền bù xu"
                                                 }
                                             ],
-                                "compensation":  414456,
+                                "compensation":  22334297751.680847,
                                 "recovery_remaining":  12301336529,
                                 "recovery_assigned":  17469714209,
                                 "recovery_count":  28447,
@@ -7127,7 +7127,7 @@
                                                         "rate":  32.9,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  3506647080,
-                                                        "compensation":  8114
+                                                        "compensation":  4436195635.7999992
                                                     },
                                                     {
                                                         "remaining":  21309791,
@@ -7137,7 +7137,7 @@
                                                         "rate":  38.28,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  13214707,
-                                                        "compensation":  1198
+                                                        "compensation":  1866396176
                                                     },
                                                     {
                                                         "remaining":  5126806355,
@@ -7147,7 +7147,7 @@
                                                         "rate":  24.33,
                                                         "status":  "Hieu suat thap",
                                                         "recovered":  1648515893,
-                                                        "compensation":  22329
+                                                        "compensation":  6943050921
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -7157,7 +7157,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  365056
+                                                        "compensation":  6717930583.8808479
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -7167,7 +7167,7 @@
                                                         "rate":  0,
                                                         "status":  "Chua truy thu",
                                                         "recovered":  0,
-                                                        "compensation":  17759
+                                                        "compensation":  2370724435
                                                     },
                                                     {
                                                         "remaining":  0,
@@ -7589,5 +7589,5 @@
                                 "recovery_actual":  0
                             }
                         ],
-    "last_updated":  "2026-07-09 17:57:56"
+    "last_updated":  "2026-07-10 11:24:20"
 };
