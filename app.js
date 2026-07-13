@@ -1,5 +1,10 @@
 // GHN Ops Dashboard Application Logic
 const GOOGLE_CLIENT_ID = "997050873554-uf5h4bj1ahkjn59ffecnkh9ohs9hjfnm.apps.googleusercontent.com";
+const AUTHORIZED_EMAILS = [
+    "dangnh@ghn.vn",
+    "hoangm@ghn.vn",
+    "admin.ops@ghn.vn"
+];
 
 // Application State
 let state = {
@@ -393,7 +398,6 @@ function initApplication() {
                 document.getElementById("header-user-role").textContent = state.currentUser.role;
                 
                 document.getElementById("admin-view").style.display = "block";
-                document.getElementById("tester-switcher").style.display = "flex";
                 initDashboard();
 
                 triggerOnboardingIfNeeded();
@@ -443,8 +447,10 @@ function hideLoginOverlay() {
 }
 
 function handleLogin(email, name, role) {
-    if (!email.endsWith("@ghn.vn")) {
+    const emailLower = email.trim().toLowerCase();
+    if (!AUTHORIZED_EMAILS.includes(emailLower)) {
         const errorMsg = document.getElementById("login-error-msg");
+        errorMsg.innerText = "Email này (" + email + ") không được cấp quyền truy cập báo cáo này!";
         errorMsg.style.display = "block";
         return;
     }
@@ -459,7 +465,6 @@ function handleLogin(email, name, role) {
     document.getElementById("header-user-role").textContent = role;
     
     document.getElementById("admin-view").style.display = "block";
-    document.getElementById("tester-switcher").style.display = "flex";
     initDashboard();
 
     triggerOnboardingIfNeeded();
@@ -1071,40 +1076,7 @@ function setupEvents() {
         renderTrendChart();
     });
 
-    // Quick Login Switcher
-    const quickLogins = document.querySelectorAll(".google-quick-btn");
-    quickLogins.forEach(btn => {
-        btn.addEventListener("click", () => {
-            const email = btn.getAttribute("data-email");
-            let name = "AM Admin Ops";
-            let role = "Admin";
 
-            if (email.includes("manager")) {
-                name = "Ops Manager";
-                role = "Viewer";
-            }
-            handleLogin(email, name, role);
-        });
-    });
-
-    // Dropdown test switcher in header
-    document.getElementById("quick-role-select").addEventListener("change", (e) => {
-        const val = e.target.value;
-        let name = "AM Admin Ops";
-        let role = "Admin";
-        let email = "admin.ops@ghn.vn";
-
-        if (val.includes("manager")) {
-            name = "Ops Manager";
-            role = "Viewer";
-            email = "manager.hcm@ghn.vn";
-        } else if (val.includes("guest")) {
-            name = "Viewer";
-            role = "Viewer";
-            email = "guest@ghn.vn";
-        }
-        handleLogin(email, name, role);
-    });
 
     // Logout
     document.getElementById("logout-btn").addEventListener("click", () => {
@@ -1237,18 +1209,18 @@ function handleGoogleCredentialResponse(response) {
         
         let errorMsg = document.getElementById('login-error-msg');
         
-        if (!email.endsWith('@ghn.vn')) {
+        if (!AUTHORIZED_EMAILS.includes(email)) {
             if (errorMsg) {
-                errorMsg.innerText = "Chỉ tài khoản Google GHN (@ghn.vn) mới được phép truy cập!";
+                errorMsg.innerText = "Email này (" + email + ") không có quyền truy cập báo cáo này!";
                 errorMsg.style.display = 'block';
             }
-            alert("Bảo mật hệ thống: Email đăng nhập phải thuộc hệ thống Giao Hàng Nhanh (có đuôi @ghn.vn)!");
+            alert("Bảo mật hệ thống: Email " + email + " không nằm trong danh sách được cấp quyền!");
             return;
         }
         
         // Mapped role
         let role = 'Viewer';
-        if (email.startsWith('admin.') || email.includes('admin@') || email.startsWith('ops.admin')) {
+        if (email.startsWith('admin.') || email.includes('admin@') || email.startsWith('ops.admin') || email.startsWith('dangnh')) {
             role = 'Admin';
         }
         
