@@ -812,31 +812,33 @@ function setupImportEvents() {
     const dropZone = document.getElementById("drop-zone");
     const fileInput = document.getElementById("excel-file-input");
 
-    dropZone.addEventListener("click", () => fileInput.click());
+    if (dropZone && fileInput) {
+        dropZone.addEventListener("click", () => fileInput.click());
 
-    dropZone.addEventListener("dragover", (e) => {
-        e.preventDefault();
-        dropZone.classList.add("dragover");
-    });
+        dropZone.addEventListener("dragover", (e) => {
+            e.preventDefault();
+            dropZone.classList.add("dragover");
+        });
 
-    dropZone.addEventListener("dragleave", () => {
-        dropZone.classList.remove("dragover");
-    });
+        dropZone.addEventListener("dragleave", () => {
+            dropZone.classList.remove("dragover");
+        });
 
-    dropZone.addEventListener("drop", (e) => {
-        e.preventDefault();
-        dropZone.classList.remove("dragover");
-        const files = e.dataTransfer.files;
-        if (files.length > 0) {
-            handleExcelImport(files[0]);
-        }
-    });
+        dropZone.addEventListener("drop", (e) => {
+            e.preventDefault();
+            dropZone.classList.remove("dragover");
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                handleExcelImport(files[0]);
+            }
+        });
 
-    fileInput.addEventListener("change", (e) => {
-        if (e.target.files.length > 0) {
-            handleExcelImport(e.target.files[0]);
-        }
-    });
+        fileInput.addEventListener("change", (e) => {
+            if (e.target.files.length > 0) {
+                handleExcelImport(e.target.files[0]);
+            }
+        });
+    }
 }
 
 function handleExcelImport(file) {
@@ -1031,11 +1033,18 @@ function sendInterventionWebhook() {
 }
 
 // -------------------------------------------------------------
-// EVENT HANDLERS AND SETUP
+// EVENT HANDLERS AND SETUP (NULL-SAFE BINDINGS)
 // -------------------------------------------------------------
+function safeAddListener(id, event, callback) {
+    const el = document.getElementById(id);
+    if (el) {
+        el.addEventListener(event, callback);
+    }
+}
+
 function setupEvents() {
     // Select/Deselect All Month Checkboxes
-    document.getElementById("month-select-all").addEventListener("change", (e) => {
+    safeAddListener("month-select-all", "change", (e) => {
         const isChecked = e.target.checked;
         const checkboxes = document.querySelectorAll(".month-checkbox");
         checkboxes.forEach(chk => {
@@ -1046,73 +1055,74 @@ function setupEvents() {
     });
 
     // Customer Type Filter
-    document.getElementById("dashboard-customer-select").addEventListener("change", (e) => {
+    safeAddListener("dashboard-customer-select", "change", (e) => {
         const val = e.target.value;
         state.selectedCustomer = val;
         
         // Sync table filters to match global filter
         state.table1Customer = val;
         state.table2Customer = val;
-        document.getElementById("table1-customer-select").value = val;
-        document.getElementById("table2-customer-select").value = val;
+        const t1 = document.getElementById("table1-customer-select");
+        if (t1) t1.value = val;
+        const t2 = document.getElementById("table2-customer-select");
+        if (t2) t2.value = val;
 
         initDashboard();
     });
 
     // Table 1 Customer Type Filter
-    document.getElementById("table1-customer-select").addEventListener("change", (e) => {
+    safeAddListener("table1-customer-select", "change", (e) => {
         state.table1Customer = e.target.value;
         renderErrorTypeTable();
     });
 
     // Table 2 Customer Type Filter
-    document.getElementById("table2-customer-select").addEventListener("change", (e) => {
+    safeAddListener("table2-customer-select", "change", (e) => {
         state.table2Customer = e.target.value;
         renderDetailsTable();
     });
 
     // Trend Error Type Filter
-    document.getElementById("trend-error-type-filter").addEventListener("change", () => {
+    safeAddListener("trend-error-type-filter", "change", () => {
         renderTrendChart();
     });
 
-
-
     // Logout
-    document.getElementById("logout-btn").addEventListener("click", () => {
+    safeAddListener("logout-btn", "click", () => {
         sessionStorage.removeItem("ghn_ops_user");
         state.currentUser = null;
         location.reload();
     });
 
     // Guide Modal
-    const guideBtn = document.getElementById("guide-btn");
-    const guideModal = document.getElementById("guide-modal");
-    const closeGuideBtn = document.getElementById("close-guide-btn");
-    const confirmGuideBtn = document.getElementById("confirm-guide-btn");
-
-    guideBtn.addEventListener("click", () => {
-        guideModal.classList.add("active");
+    safeAddListener("guide-btn", "click", () => {
+        const guideModal = document.getElementById("guide-modal");
+        if (guideModal) guideModal.classList.add("active");
     });
 
-    const hideGuide = () => guideModal.classList.remove("active");
-    closeGuideBtn.addEventListener("click", hideGuide);
-    confirmGuideBtn.addEventListener("click", hideGuide);
+    const hideGuide = () => {
+        const guideModal = document.getElementById("guide-modal");
+        if (guideModal) guideModal.classList.remove("active");
+    };
+    safeAddListener("close-guide-btn", "click", hideGuide);
+    safeAddListener("confirm-guide-btn", "click", hideGuide);
 
     // Close buttons for other modals
-    document.getElementById("close-audit-btn").addEventListener("click", () => {
-        document.getElementById("audit-modal").classList.remove("active");
+    safeAddListener("close-audit-btn", "click", () => {
+        const modal = document.getElementById("audit-modal");
+        if (modal) modal.classList.remove("active");
     });
-    document.getElementById("close-intervention-btn").addEventListener("click", closeInterventionModal);
-    document.getElementById("cancel-interv-btn").addEventListener("click", closeInterventionModal);
+    safeAddListener("close-intervention-btn", "click", closeInterventionModal);
+    safeAddListener("cancel-interv-btn", "click", closeInterventionModal);
 
     // Save and cancel buttons on import audit modal
-    document.getElementById("cancel-import-btn").addEventListener("click", () => {
-        document.getElementById("audit-modal").classList.remove("active");
+    safeAddListener("cancel-import-btn", "click", () => {
+        const modal = document.getElementById("audit-modal");
+        if (modal) modal.classList.remove("active");
         state.tempImportData = null;
     });
 
-    document.getElementById("confirm-import-btn").addEventListener("click", () => {
+    safeAddListener("confirm-import-btn", "click", () => {
         if (state.tempImportData) {
             const latest = state.monthlySummary[state.monthlySummary.length - 1];
             latest.recovery_actual += state.tempImportData.valid * 2500000;
@@ -1125,22 +1135,25 @@ function setupEvents() {
                 monthly_summary: state.monthlySummary
             }));
             
-            document.getElementById("audit-modal").classList.remove("active");
+            const modal = document.getElementById("audit-modal");
+            if (modal) modal.classList.remove("active");
             initDashboard();
             alert("Đã kết nhập tệp thành công! Dashboard đã tự động đối soát và cập nhật số liệu.");
         }
     });
 
     // Send Webhook Action
-    document.getElementById("send-webhook-btn").addEventListener("click", sendInterventionWebhook);
+    safeAddListener("send-webhook-btn", "click", sendInterventionWebhook);
 
     // Run AI Prompt Generation
-    document.getElementById("generate-ai-alert-btn").addEventListener("click", runSimulatedLLM);
+    safeAddListener("generate-ai-alert-btn", "click", runSimulatedLLM);
 
     // Send Telegram alert bot logic
-    document.getElementById("send-telegram-alert-btn").addEventListener("click", () => {
-        const token = document.getElementById("telegram-bot-token").value.trim();
-        const chatId = document.getElementById("telegram-chat-id").value.trim();
+    safeAddListener("send-telegram-alert-btn", "click", () => {
+        const tokenVal = document.getElementById("telegram-bot-token");
+        const chatIdVal = document.getElementById("telegram-chat-id");
+        const token = tokenVal ? tokenVal.value.trim() : "";
+        const chatId = chatIdVal ? chatIdVal.value.trim() : "";
 
         if (token && chatId) {
             alert("[MÔ PHỎNG] Kích hoạt tiến trình gửi cảnh báo tự động đến các bên quản lý danh mục lỗi có hiệu suất thấp.");
@@ -1150,7 +1163,7 @@ function setupEvents() {
     });
 
     // Download template excel file
-    document.getElementById("download-template-btn").addEventListener("click", () => {
+    safeAddListener("download-template-btn", "click", () => {
         let data = [
             { "Kỳ tháng": "2026-06", "Ngày": "01/06/2026", "Lý do đền bù": "Mất hàng", "Số tiền đền bù": 15000000, "Đã thu hồi": 10500000, "Còn phải thu": 4500000 },
             { "Kỳ tháng": "2026-06", "Ngày": "02/06/2026", "Lý do đền bù": "Hư hỏng", "Số tiền đền bù": 8200000, "Đã thu hồi": 8200000, "Còn phải thu": 0 }
@@ -1162,7 +1175,7 @@ function setupEvents() {
     });
 
     // Reset Data
-    document.getElementById("reset-btn").addEventListener("click", () => {
+    safeAddListener("reset-btn", "click", () => {
         localStorage.removeItem("ghn_denbu_truythu_data");
         sessionStorage.removeItem("ghn_guide_shown");
         initApplication();
