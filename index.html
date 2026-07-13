@@ -140,12 +140,22 @@
                     
                     <!-- Aligned Error Types Correlation Card -->
                     <section class="glass-card" aria-label="Báo cáo tương quan loại lỗi">
-                        <div class="card-header">
+                        <div class="card-header" style="flex-wrap: wrap; gap: 0.75rem; justify-content: space-between; align-items: center;">
                             <div class="card-title">
                                 <i class="fas fa-triangle-exclamation" style="color: var(--color-pink);"></i>
                                 <h2>BÁO CÁO TƯƠNG QUAN THEO LOẠI LỖI SỰ CỐ ĐỀN BÙ (TOÀN QUỐC)</h2>
                             </div>
-                            <span id="error-type-selected-month" style="font-size: 0.725rem; color: var(--text-secondary); background: rgba(255,255,255,0.05); padding: 0.25rem 0.5rem; border-radius: 4px;">Kỳ tháng</span>
+                            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                <select id="table1-customer-select" class="input-select" style="padding: 0.25rem 0.55rem; font-size: 0.725rem; width: auto; height: auto; margin: 0;">
+                                    <option value="ALL">Tất cả khách hàng (Bảng 1)</option>
+                                    <option value="Shopee">Shopee / SPX</option>
+                                    <option value="Lazada">Lazada</option>
+                                    <option value="TikTok Shop">TikTok Shop</option>
+                                    <option value="Tiki">Tiki</option>
+                                    <option value="Shop le / Khac">Shop lẻ / Khác</option>
+                                </select>
+                                <span id="error-type-selected-month" style="font-size: 0.725rem; color: var(--text-secondary); background: rgba(255,255,255,0.05); padding: 0.25rem 0.5rem; border-radius: 4px;">Kỳ tháng</span>
+                            </div>
                         </div>
                         <div style="padding: 1.5rem;">
                             <p style="font-size: 0.8125rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
@@ -318,10 +328,20 @@
             <!-- Bottom Section: Monthly Breakdown Table -->
             <section style="display: flex; flex-direction: column; gap: 1.5rem;">
                 <div class="glass-card" style="padding: 1.5rem;">
-                    <div class="card-header" style="border-bottom: none; padding: 0 0 1rem 0; display: flex; justify-content: space-between; align-items: center;">
+                    <div class="card-header" style="border-bottom: none; padding: 0 0 1rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
                         <div class="card-title">
                             <i class="fas fa-table" style="color: var(--color-cyan);"></i>
                             <h2>BẢNG CHI TIẾT SỐ LIỆU ĐỀN BÙ & TRUY THU THEO KỲ THÁNG</h2>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <select id="table2-customer-select" class="input-select" style="padding: 0.25rem 0.55rem; font-size: 0.725rem; width: auto; height: auto; margin: 0;">
+                                <option value="ALL">Tất cả khách hàng (Bảng 2)</option>
+                                <option value="Shopee">Shopee / SPX</option>
+                                <option value="Lazada">Lazada</option>
+                                <option value="TikTok Shop">TikTok Shop</option>
+                                <option value="Tiki">Tiki</option>
+                                <option value="Shop le / Khac">Shop lẻ / Khác</option>
+                            </select>
                         </div>
                     </div>
                     <p style="font-size: 0.8125rem; color: var(--text-secondary); margin-bottom: 1.25rem;">

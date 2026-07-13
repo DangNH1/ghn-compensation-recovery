@@ -6,6 +6,8 @@ let state = {
     months: [],
     selectedMonths: [], // Stores currently checked months (multi-select)
     selectedCustomer: "ALL", // Customer type filter (ALL, Shopee, Lazada, TikTok Shop, Tiki, Shop le / Khac)
+    table1Customer: "ALL", // Filter specifically for Table 1 (correlation report)
+    table2Customer: "ALL", // Filter specifically for Table 2 (monthly breakdown details)
     monthlySummary: [],
     currentUser: null,
     tempImportData: null
@@ -196,11 +198,12 @@ function getSelectedMonthsData() {
 }
 
 // Helper to aggregate error types for a specific array of months (e.g. for a specific year)
-function getAggregatedDataForMonths(targetMonthsArray) {
-    if (state.selectedCustomer === "ALL") {
+function getAggregatedDataForMonths(targetMonthsArray, customerType) {
+    const cust = customerType || state.selectedCustomer;
+    if (cust === "ALL") {
         return getAggregatedDataForMonthsAll(targetMonthsArray);
     } else {
-        return getAggregatedDataForMonthsCustomer(targetMonthsArray);
+        return getAggregatedDataForMonthsCustomer(targetMonthsArray, cust);
     }
 }
 
@@ -269,7 +272,8 @@ function getAggregatedDataForMonthsAll(targetMonthsArray) {
     });
 }
 
-function getAggregatedDataForMonthsCustomer(targetMonthsArray) {
+function getAggregatedDataForMonthsCustomer(targetMonthsArray, customerType) {
+    const cust = customerType || state.selectedCustomer;
     let errorTypeMap = {};
     const alignedCategories = ["Mat hang", "Hu hong", "Qua han/Sai SOP", "Mien cuoc", "Den bu xu", "Khac"];
     alignedCategories.forEach(cat => {
@@ -286,7 +290,7 @@ function getAggregatedDataForMonthsCustomer(targetMonthsArray) {
     const targetMonths = state.monthlySummary.filter(m => targetMonthsArray.includes(m.month));
     targetMonths.forEach(m => {
         if (m.customer_segments) {
-            const seg = m.customer_segments.find(c => c.customer_type === state.selectedCustomer);
+            const seg = m.customer_segments.find(c => c.customer_type === cust);
             if (seg && seg.error_types) {
                 seg.error_types.forEach(et => {
                     if (errorTypeMap[et.error_type]) {
@@ -509,7 +513,7 @@ function renderErrorTypeTable() {
     
     // Label updates
     const count = state.selectedMonths.length;
-    const custLabel = state.selectedCustomer === "ALL" ? "" : ` [Khách hàng: ${state.selectedCustomer}]`;
+    const custLabel = state.table1Customer === "ALL" ? "" : ` [Khách hàng: ${state.table1Customer}]`;
     document.getElementById("error-type-selected-month").textContent = (count === state.months.length ? "Lũy kế toàn thời gian" : `Lũy kế ${count} tháng đã chọn`) + custLabel;
 
     if (count === 0) {
@@ -531,7 +535,7 @@ function renderErrorTypeTable() {
 
     sortedYears.forEach(year => {
         const yearMonths = yearsGroup[year];
-        const aggregatedErrorTypes = getAggregatedDataForMonths(yearMonths);
+        const aggregatedErrorTypes = getAggregatedDataForMonths(yearMonths, state.table1Customer);
 
         // Render Year Header Row
         const headerTr = document.createElement("tr");
@@ -596,8 +600,8 @@ function renderDetailsTable() {
     state.monthlySummary.forEach(row => {
         const tr = document.createElement("tr");
         let targetSegment = row; // Default to global
-        if (state.selectedCustomer !== "ALL" && row.customer_segments) {
-            targetSegment = row.customer_segments.find(c => c.customer_type === state.selectedCustomer) || row;
+        if (state.table2Customer !== "ALL" && row.customer_segments) {
+            targetSegment = row.customer_segments.find(c => c.customer_type === state.table2Customer) || row;
         }
 
         const comp = targetSegment.compensation;
@@ -1038,8 +1042,28 @@ function setupEvents() {
 
     // Customer Type Filter
     document.getElementById("dashboard-customer-select").addEventListener("change", (e) => {
-        state.selectedCustomer = e.target.value;
+        const val = e.target.value;
+        state.selectedCustomer = val;
+        
+        // Sync table filters to match global filter
+        state.table1Customer = val;
+        state.table2Customer = val;
+        document.getElementById("table1-customer-select").value = val;
+        document.getElementById("table2-customer-select").value = val;
+
         initDashboard();
+    });
+
+    // Table 1 Customer Type Filter
+    document.getElementById("table1-customer-select").addEventListener("change", (e) => {
+        state.table1Customer = e.target.value;
+        renderErrorTypeTable();
+    });
+
+    // Table 2 Customer Type Filter
+    document.getElementById("table2-customer-select").addEventListener("change", (e) => {
+        state.table2Customer = e.target.value;
+        renderDetailsTable();
     });
 
     // Trend Error Type Filter
