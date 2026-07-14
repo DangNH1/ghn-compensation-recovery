@@ -3,6 +3,7 @@ const GOOGLE_CLIENT_ID = "997050873554-uf5h4bj1ahkjn59ffecnkh9ohs9hjfnm.apps.goo
 const AUTHORIZED_EMAILS = [
     "dangnh@ghn.vn",
     "hoangm@ghn.vn",
+    "thucnc@ghn.vn",
     "admin.ops@ghn.vn"
 ];
 
