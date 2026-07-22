@@ -4,7 +4,16 @@ const AUTHORIZED_EMAILS = [
     "dangnh@ghn.vn",
     "hoangm@ghn.vn",
     "thucnc@ghn.vn",
-    "admin.ops@ghn.vn"
+    "admin.ops@ghn.vn",
+    "phatlv@ghn.vn",
+    "3079900@ghn.vn",
+    "3128820@ghn.vn",
+    "3099546@ghn.vn",
+    "3148190@ghn.vn",
+    "3036302@ghn.vn",
+    "3151766@ghn.vn",
+    "3161319@ghn.vn",
+    "3176598@ghn.vn"
 ];
 
 // Application State
