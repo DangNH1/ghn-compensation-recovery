@@ -7,7 +7,7 @@ const AUTHORIZED_EMAILS = [
     "admin.ops@ghn.vn",
     "phatlv@ghn.vn",
     "lamtbd@ghn.vn",
-    "tupt@ghn.vn",
+    "thupt@ghn.vn",
     "thongdhn@ghn.vn",
     "giangh@ghn.vn",
     "minhnn@ghn.vn",
