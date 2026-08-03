@@ -12,6 +12,7 @@ const AUTHORIZED_EMAILS = [
     "giangh@ghn.vn",
     "minhnn@ghn.vn",
     "trannlb@ghn.vn",
+    "cuongn@ghn.vn",
     "3079900@ghn.vn",
     "3128820@ghn.vn",
     "3099546@ghn.vn",
