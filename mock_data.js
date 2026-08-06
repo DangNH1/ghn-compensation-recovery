@@ -7590,7 +7590,8 @@ const aggregatedData = {
                                                 ],
                                 "recovery_actual":  0
                             }
-                        ],
+                        ]
+        },
         {
             "month": "2026-06",
             "compensation": 0,
