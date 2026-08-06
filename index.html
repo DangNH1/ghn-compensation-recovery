@@ -432,6 +432,58 @@
                     </div>
                 </div>
             </section>
+
+            <!-- NEW SECTION: Truy Thu Theo Vùng & Thời Gian (Sheet 4 data) -->
+            <section style="margin-top: 1.5rem;" id="region-recovery-section">
+                <div class="glass-card" style="padding: 1.5rem;">
+                    <div class="card-header" style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+                        <div class="card-title">
+                            <i class="fas fa-map-marked-alt" style="color: var(--color-cyan);"></i>
+                            <h2>TRUY THU THEO VÙNG & THỜI GIAN (Sheet TT - Theo tháng truy thu)</h2>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+                            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                <label style="font-size: 0.725rem; color: var(--text-secondary); font-weight: 600; white-space: nowrap;">Lọc tháng:</label>
+                                <select id="region-month-filter" class="input-select" style="padding: 0.25rem 0.5rem; font-size: 0.75rem; width: auto; height: auto; margin: 0;">
+                                    <option value="ALL">Tất cả các tháng</option>
+                                </select>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                <label style="font-size: 0.725rem; color: var(--text-secondary); font-weight: 600; white-space: nowrap;">Chỉ số:</label>
+                                <select id="region-metric-filter" class="input-select" style="padding: 0.25rem 0.5rem; font-size: 0.75rem; width: auto; height: auto; margin: 0;">
+                                    <option value="tienTruyThu">Cần Truy Thu (= Đã thu + Còn lại)</option>
+                                    <option value="daTruyThu">Đã Truy Thu</option>
+                                    <option value="hoanTruyThu">Hoàn Truy Thu</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p style="font-size: 0.8125rem; color: var(--text-secondary); margin-bottom: 1.25rem; line-height: 1.5;">
+                        Bảng tổng hợp số tiền <strong style="color: var(--color-cyan);">cần truy thu</strong> (= Đã thu + Còn phải thu), 
+                        <strong style="color: var(--color-green);">đã truy thu</strong> và <strong style="color: var(--color-yellow);">hoàn truy thu</strong> 
+                        phân theo <strong>Vùng</strong> và <strong>Tháng</strong>. Nguồn: Sheet <em>"TT - Theo tháng truy thu"</em>.
+                    </p>
+
+                    <!-- Summary KPI row -->
+                    <div id="region-kpi-row" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1.25rem;"></div>
+
+                    <!-- Main pivot table: Rows = Vùng, Columns = Tháng -->
+                    <div class="priority-table-container" style="overflow-x: auto; max-height: 500px; overflow-y: auto;">
+                        <table class="priority-table" id="region-recovery-table" style="min-width: 900px;">
+                            <thead id="region-recovery-thead">
+                                <!-- Dynamic headers: Vùng | Tháng1 | Tháng2 | ... | TỔNG -->
+                            </thead>
+                            <tbody id="region-recovery-tbody">
+                                <!-- Dynamic rows populated by app.js -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <p style="font-size: 0.7rem; color: var(--text-muted); margin-top: 0.75rem; text-align: right;">
+                        <i class="fas fa-info-circle"></i> Đơn vị: VNĐ &nbsp;|&nbsp; Số âm (-) = Hoàn truy thu vượt mức phân bổ
+                    </p>
+                </div>
+            </section>
         </div> <!-- End #admin-view -->
 
         <!-- Dashboard Footer -->

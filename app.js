@@ -1268,4 +1268,122 @@ window.addEventListener('DOMContentLoaded', () => {
     setupEvents();
     setupImportEvents();
     initGoogleSignIn();
+    renderRegionRecoveryTable();
 });
+
+// =============================================================
+// BẢNG TRUY THU THEO VÙNG & THỜI GIAN
+// =============================================================
+function fmtM(val) {
+    // Format as billions/millions shorthand for cells
+    const abs = Math.abs(val);
+    let str;
+    if (abs >= 1e9) str = (val / 1e9).toFixed(2) + ' Tỷ';
+    else if (abs >= 1e6) str = (val / 1e6).toFixed(1) + ' Tr';
+    else str = val.toLocaleString('vi-VN');
+    return val < 0 ? '<span style="color:#f87171">-' + str.replace('-','') + '</span>' : str;
+}
+
+function renderRegionRecoveryTable() {
+    const data = (typeof aggregatedData !== 'undefined' && aggregatedData.recovery_by_region)
+        ? aggregatedData.recovery_by_region : [];
+    if (!data || data.length === 0) return;
+
+    // Collect unique months and regions (sorted)
+    const monthSet = [...new Set(data.map(r => r.thang))].sort();
+    const regionSet = [...new Set(data.map(r => r.vung))].sort();
+
+    // Populate month filter dropdown
+    const monthFilter = document.getElementById('region-month-filter');
+    const metricFilter = document.getElementById('region-metric-filter');
+    if (!monthFilter) return;
+    monthFilter.innerHTML = '<option value="ALL">Tất cả các tháng</option>';
+    monthSet.forEach(m => {
+        const opt = document.createElement('option');
+        opt.value = m; opt.textContent = m;
+        monthFilter.appendChild(opt);
+    });
+
+    function renderTable() {
+        const selMonth = monthFilter.value;
+        const selMetric = metricFilter.value;
+        const months = selMonth === 'ALL' ? monthSet : [selMonth];
+
+        // Build pivot: pivot[region][month] = value
+        const pivot = {};
+        regionSet.forEach(r => pivot[r] = {});
+        data.forEach(row => {
+            if (!months.includes(row.thang)) return;
+            if (!pivot[row.vung]) pivot[row.vung] = {};
+            pivot[row.vung][row.thang] = (pivot[row.vung][row.thang] || 0) + row[selMetric];
+        });
+
+        // --- THEAD ---
+        const thead = document.getElementById('region-recovery-thead');
+        let headHtml = '<tr><th style="position:sticky;left:0;background:#0d1320;z-index:2;min-width:70px;">Vùng</th>';
+        months.forEach(m => { headHtml += `<th style="text-align:right;white-space:nowrap;">${m}</th>`; });
+        headHtml += '<th style="text-align:right;background:rgba(6,182,212,0.1);color:var(--color-cyan);">TỔNG</th></tr>';
+        thead.innerHTML = headHtml;
+
+        // --- TBODY ---
+        const tbody = document.getElementById('region-recovery-tbody');
+        let bodyHtml = '';
+        let colTotals = {};
+        months.forEach(m => colTotals[m] = 0);
+        let grandTotal = 0;
+
+        regionSet.forEach(vung => {
+            let rowTotal = 0;
+            let rowHtml = `<tr><td style="font-weight:700;position:sticky;left:0;background:#0d1320;z-index:1;">${vung}</td>`;
+            months.forEach(m => {
+                const v = pivot[vung][m] || 0;
+                rowTotal += v;
+                colTotals[m] += v;
+                rowHtml += `<td style="text-align:right;font-size:0.78rem;">${fmtM(v)}</td>`;
+            });
+            grandTotal += rowTotal;
+            rowHtml += `<td style="text-align:right;font-weight:700;color:var(--color-cyan);font-size:0.78rem;">${fmtM(rowTotal)}</td></tr>`;
+            bodyHtml += rowHtml;
+        });
+
+        // Total row
+        let totalRowHtml = '<tr style="border-top:2px solid var(--color-cyan);background:rgba(6,182,212,0.06);font-weight:800;">';
+        totalRowHtml += '<td style="position:sticky;left:0;background:rgba(6,182,212,0.06);color:var(--color-cyan);z-index:1;">TỔNG CỘNG</td>';
+        months.forEach(m => {
+            totalRowHtml += `<td style="text-align:right;color:var(--color-cyan);">${fmtM(colTotals[m])}</td>`;
+        });
+        totalRowHtml += `<td style="text-align:right;color:var(--color-cyan);">${fmtM(grandTotal)}</td></tr>`;
+        bodyHtml += totalRowHtml;
+        tbody.innerHTML = bodyHtml;
+
+        // --- KPI CARDS ---
+        const kpiRow = document.getElementById('region-kpi-row');
+        if (kpiRow) {
+            const totalTienTruyThu = data.filter(r => months.includes(r.thang)).reduce((s, r) => s + r.tienTruyThu, 0);
+            const totalDaTruyThu = data.filter(r => months.includes(r.thang)).reduce((s, r) => s + r.daTruyThu, 0);
+            const totalHoanTruyThu = data.filter(r => months.includes(r.thang)).reduce((s, r) => s + r.hoanTruyThu, 0);
+            const tyLe = totalTienTruyThu > 0 ? (totalDaTruyThu / totalTienTruyThu * 100).toFixed(1) : 0;
+            kpiRow.innerHTML = `
+                <div style="background:rgba(6,182,212,0.08);border:1px solid rgba(6,182,212,0.2);border-radius:10px;padding:0.85rem 1rem;">
+                    <div style="font-size:0.7rem;color:var(--text-secondary);font-weight:600;margin-bottom:0.35rem;">💼 Tổng Cần Truy Thu</div>
+                    <div style="font-size:1.05rem;font-weight:800;color:var(--color-cyan);">${(totalTienTruyThu/1e9).toFixed(1)} Tỷ</div>
+                </div>
+                <div style="background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.2);border-radius:10px;padding:0.85rem 1rem;">
+                    <div style="font-size:0.7rem;color:var(--text-secondary);font-weight:600;margin-bottom:0.35rem;">✅ Đã Truy Thu</div>
+                    <div style="font-size:1.05rem;font-weight:800;color:var(--color-green);">${(totalDaTruyThu/1e9).toFixed(1)} Tỷ</div>
+                </div>
+                <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:0.85rem 1rem;">
+                    <div style="font-size:0.7rem;color:var(--text-secondary);font-weight:600;margin-bottom:0.35rem;">↩️ Hoàn Truy Thu</div>
+                    <div style="font-size:1.05rem;font-weight:800;color:var(--color-yellow);">${(totalHoanTruyThu/1e9).toFixed(1)} Tỷ</div>
+                </div>
+                <div style="background:rgba(168,85,247,0.08);border:1px solid rgba(168,85,247,0.2);border-radius:10px;padding:0.85rem 1rem;">
+                    <div style="font-size:0.7rem;color:var(--text-secondary);font-weight:600;margin-bottom:0.35rem;">📊 Tỷ Lệ Đã Thu</div>
+                    <div style="font-size:1.05rem;font-weight:800;color:var(--color-purple);">${tyLe}%</div>
+                </div>`;
+        }
+    }
+
+    renderTable();
+    monthFilter.addEventListener('change', renderTable);
+    metricFilter.addEventListener('change', renderTable);
+}
