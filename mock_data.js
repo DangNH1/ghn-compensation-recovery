@@ -7649,10 +7649,6 @@ const aggregatedData = {
                         ],
                         "customer_segments": []
                     }
-                ],
-                "recovery_actual": 0
-            }
-        ]
     ],
     "last_updated": "2026-08-06",
     "thu_hoi_van_hanh": [
