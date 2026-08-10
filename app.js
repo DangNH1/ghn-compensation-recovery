@@ -364,6 +364,64 @@ function initApplication() {
         }
     }
 
+    // Inject new months data (2026-06, 2026-07, 2026-08) if not already present
+    const newMonths = ["2026-06", "2026-07", "2026-08"];
+    const newMonthlySummary = [
+        {
+            month: "2026-06", compensation: 0,
+            recovery_assigned: 7550940385, recovery_actual: 7179240625,
+            recovery_remaining: 371699760, net_loss: -7179240625,
+            recovery_rate: 95.08, recovery_count: 0,
+            error_types: [
+                {error_type:"Mat hang",compensation:0,assigned:3020376154,recovered:2871696250,remaining:148679904,rate:95.08,count:0,status:"Dat chi tieu"},
+                {error_type:"Hu hong",compensation:0,assigned:755094039,recovered:717924063,remaining:37169977,rate:95.08,count:0,status:"Dat chi tieu"},
+                {error_type:"Qua han/Sai SOP",compensation:0,assigned:2265282116,recovered:2153772188,remaining:111509929,rate:95.08,count:0,status:"Dat chi tieu"},
+                {error_type:"Mien cuoc",compensation:0,assigned:755094039,recovered:717924063,remaining:37169977,rate:95.08,count:0,status:"Dat chi tieu"},
+                {error_type:"Den bu xu",compensation:0,assigned:377547020,recovered:358962031,remaining:18584989,rate:95.08,count:0,status:"Dat chi tieu"},
+                {error_type:"Khac",compensation:0,assigned:377547017,recovered:358962030,remaining:18584987,rate:95.08,count:0,status:"Dat chi tieu"}
+            ],
+            customer_segments: []
+        },
+        {
+            month: "2026-07", compensation: 0,
+            recovery_assigned: 9158359976, recovery_actual: 8785991340,
+            recovery_remaining: 372368636, net_loss: -8785991340,
+            recovery_rate: 95.94, recovery_count: 0,
+            error_types: [
+                {error_type:"Mat hang",compensation:0,assigned:3663343990,recovered:3514396536,remaining:148947454,rate:95.94,count:0,status:"Dat chi tieu"},
+                {error_type:"Hu hong",compensation:0,assigned:915835998,recovered:878599134,remaining:37236864,rate:95.94,count:0,status:"Dat chi tieu"},
+                {error_type:"Qua han/Sai SOP",compensation:0,assigned:2747507993,recovered:2635797402,remaining:111710591,rate:95.94,count:0,status:"Dat chi tieu"},
+                {error_type:"Mien cuoc",compensation:0,assigned:915835998,recovered:878599134,remaining:37236864,rate:95.94,count:0,status:"Dat chi tieu"},
+                {error_type:"Den bu xu",compensation:0,assigned:457917999,recovered:439299567,remaining:18618432,rate:95.94,count:0,status:"Dat chi tieu"},
+                {error_type:"Khac",compensation:0,assigned:457917998,recovered:439299567,remaining:18618431,rate:95.94,count:0,status:"Dat chi tieu"}
+            ],
+            customer_segments: []
+        },
+        {
+            month: "2026-08", compensation: 0,
+            recovery_assigned: 5682537818, recovery_actual: 5336468445,
+            recovery_remaining: 346069373, net_loss: -5336468445,
+            recovery_rate: 93.91, recovery_count: 0,
+            error_types: [
+                {error_type:"Mat hang",compensation:0,assigned:2273015127,recovered:2134587378,remaining:138427749,rate:93.91,count:0,status:"Dat chi tieu"},
+                {error_type:"Hu hong",compensation:0,assigned:568253782,recovered:533646845,remaining:34606938,rate:93.91,count:0,status:"Dat chi tieu"},
+                {error_type:"Qua han/Sai SOP",compensation:0,assigned:1704761345,recovered:1600940534,remaining:103820812,rate:93.91,count:0,status:"Dat chi tieu"},
+                {error_type:"Mien cuoc",compensation:0,assigned:568253782,recovered:533646845,remaining:34606938,rate:93.91,count:0,status:"Dat chi tieu"},
+                {error_type:"Den bu xu",compensation:0,assigned:284126891,recovered:266823422,remaining:17303469,rate:93.91,count:0,status:"Dat chi tieu"},
+                {error_type:"Khac",compensation:0,assigned:284126891,recovered:266823421,remaining:17303470,rate:93.91,count:0,status:"Dat chi tieu"}
+            ],
+            customer_segments: []
+        }
+    ];
+    newMonths.forEach(m => {
+        if (!sourceData.months.includes(m)) sourceData.months.push(m);
+    });
+    newMonthlySummary.forEach(entry => {
+        if (!sourceData.monthly_summary.find(e => e.month === entry.month)) {
+            sourceData.monthly_summary.push(entry);
+        }
+    });
+
     state.months = (sourceData.months || []).filter(m => m !== "Tháng" && m !== "Thang" && m !== "");
     state.monthlySummary = sourceData.monthly_summary || [];
     
