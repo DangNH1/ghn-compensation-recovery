@@ -1,4 +1,4 @@
-﻿const aggregatedData = {
+const aggregatedData = {
     "months":  [
                    "2025-01",
                    "2025-02",
@@ -7589,8 +7589,7 @@
                                                      }
                                                  ],
                                 "recovery_actual":  0
-                        ]
-                    },
+                            }
     ],
     "last_updated": "2026-08-06",
     "thu_hoi_van_hanh": [
